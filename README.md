@@ -8,12 +8,19 @@
     ```
     git clone https://github.com/Anatoli-Grishenko/UGRMPBase UGRMPBase
     ``` 
+  - Mantener el repo actualizado con los últimos cambios
+    ```
+    cd UGRMPbase
+    git pull
+    ```
   - [Videotutorial](https://drive.google.com/file/d/1sxjvPOP9VChG-1PW2I3iZF-wVbesABo4/view?usp=sharing) Preparando el entorno de trabajo 
 	- Paquetes de Linux que deben estar presentes durante las prácticas (sudo apt install) `gcc` `make`    `valgrind`     `wdiff`  `doxygen`    `ImageMagick` `git`
  - Para aquellos que decidáis la opción de VirtualBox, el profesorado de MP hemos preparado una copia de una máquina virtual ya preparada con Linux, NetBeans y C++. Aquí tenéis las instrucciones  para instalarla. Son tres pasos muy sencillos
    - Descargar e Instalar [Virtualbox](https://www.oracle.com/emea/virtualization/solutions/try-oracle-vm-virtualbox/?source=:ad:pas:go:dg:a_emea:71700000086137880-58700007342953610-p65823631225:RC_WWMK201210P00009C0001:&SC=:ad:pas:go:dg:a_emea::RC_WWMK201210P00009C0001::&gclid=CjwKCAiAl-6PBhBCEiwAc2GOVOk47paaZegmnUyyKtx-WFrjIcTIDntJfqxW40Kk8E3DFxK2_RPZBBoCUzwQAvD_BwE&gclsrc=aw.ds)
-   - Descargar la Máquina virtual de Google Drive
-	 - Importar la máquina virtual y acceder a ella. Claves de acceso y la descripción paso a paso en la [guía de importación](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/importova.pdf)
+   - Descargar la Máquina virtual oficial de la asignatura de Google Drive. Es una versión de `Ubuntu 20` conocida como `LUbuntu 20` la cual ya vien empaquetada para consumir la mínima cantidad de recursos dado que se va a usar dentro de una VirtualBox sobre Windows. Esta imagen ya está configurada para la asignatura MP y lleva todo el software necesario instalado.
+   - Importar la máquina virtual  y acceder a ella. [guía de importación](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/importova.pdf)
+   - Usuario `mp`
+   - Password `.CambiaEsto`
 - Y, finalmente una última opción: el servidor de imágenes virtuales de la [ETSIIT](https://turing.ugr.es/). Arrancar con Ubuntu 18. Ya tiene instalado NetBeans 11.2 y C++. 
 
 # Secuencia de prácticas
