@@ -9,14 +9,30 @@
     git clone https://github.com/Anatoli-Grishenko/UGRMPBase UGRMPBase
     ``` 
   - [Videotutorial](https://drive.google.com/file/d/1sxjvPOP9VChG-1PW2I3iZF-wVbesABo4/view?usp=sharing) Preparando el entorno de trabajo 
-	- Paquetes de Linux que deben estar presentes durante las prácticas (sudo apt install)
-      `gcc`
-      `make`
-      `valgrind`
-      `wdiff`
-      `ImageMagick`
+	- Paquetes de Linux que deben estar presentes durante las prácticas (sudo apt install) `gcc` `make`    `valgrind`     `wdiff`      `ImageMagick` `git`
  - Para aquellos que decidáis la opción de VirtualBox, el profesorado de MP hemos preparado una copia de una máquina virtual ya preparada con Linux, NetBeans y C++. Aquí tenéis las instrucciones  para instalarla. Son tres pasos muy sencillos
    - Descargar e Instalar [Virtualbox](https://www.oracle.com/emea/virtualization/solutions/try-oracle-vm-virtualbox/?source=:ad:pas:go:dg:a_emea:71700000086137880-58700007342953610-p65823631225:RC_WWMK201210P00009C0001:&SC=:ad:pas:go:dg:a_emea::RC_WWMK201210P00009C0001::&gclid=CjwKCAiAl-6PBhBCEiwAc2GOVOk47paaZegmnUyyKtx-WFrjIcTIDntJfqxW40Kk8E3DFxK2_RPZBBoCUzwQAvD_BwE&gclsrc=aw.ds)
    - Descargar la Máquina virtual de Google Drive
 	 - Importar la máquina virtual y acceder a ella. Claves de acceso y la descripción paso a paso en la [guía de importación](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/importova.pdf)
 - Y, finalmente una última opción: el servidor de imágenes virtuales de la [ETSIIT](https://turing.ugr.es/). Arrancar con Ubuntu 18. Ya tiene instalado NetBeans 11.2 y C++. 
+
+# Secuencia de prácticas
+|Comienzo | Práctica | Herramientas | Metodología
+| -----| -----|-----| ----- |
+|Semana1 21/feb/2022 |Imaging 0 | NetBeans 1 | Separar declaración de implementación de métodos. Métodos `const`.Parámetros por valor y por referencia. Paso de vectores a funciones y métodos |
+|Semana2	28/feb/2022 | | | |
+|Semana3	7/mar/2022 | | | |
+|Semana4	14/mar/2022 | | | |
+|Semana5	21/mar/2022 | | | |
+|Semana6	28/mar/2022 | | | |
+|Semana7	4/abr/2022 | | | |
+|Semana8	11/abr/2022 | | | |
+|Semana9	18/abr/2022 | | | |
+|Semana10	25/abr/2022 | | | |
+|Semana11	2/may/2022 | | | |
+|Semana12	9/may/2022 | | | |
+|Semana13	16/may/2022 | | | |
+|Semana14	23/may/2022 | | | |
+|Semana15	30/may/2022 | | | |
+|Semana16	6/jun/2022 | | | |
+
