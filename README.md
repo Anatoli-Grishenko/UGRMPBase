@@ -79,48 +79,41 @@ El depurador es una herramienta que suele estar incorporada en los IDE (Integrat
 
 - Manual sobre el [depurador de NetBeans](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Debugger.pdf)
 - [Videotutorial 1](https://drive.google.com/file/d/1vtFSsMQKnaHpsGD25TCPHCAdmDVJ_a1k/view?usp=sharing)
-- [Videotutorial 2] (https://drive.google.com/file/d/1cStDUlagLLo_UQk5HOvZNWuqg3dxxCNl/view?usp=sharing)
-\item Proyectos de NetBeans para depurar incluídos en el videotutorial: `Debugger1` `Debugger2` `Debugger3`
+- [Videotutorial 2](https://drive.google.com/file/d/1cStDUlagLLo_UQk5HOvZNWuqg3dxxCNl/view?usp=sharing)
+- Proyectos de NetBeans para depurar incluídos en el videotutorial: `Debugger1` `Debugger2` `Debugger3`
 
 ## Detección de pérdidas de memoria y errores en la gestión de la memoria
 Valgrind y Dr Memory son herramientas para la detección, sobre todo, de pérdidas de memoria, pero también de otros problemas de gestión de la memoria dinámica.
 
 - Manual sobre el uso de [Valgrind](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf)
 - Manual sobre el uso de [Dr Memory](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/drmemory.pdf)
-\item Proyecto Interactivo \mysource{file:../../Alumnos/ValgrindShowcase.zip}
-\begin{itemize}
-\item Descomprimir
-\item Cargar en Netbeans
-\item Ejecutar y seguir las instrucciones. Se puede volver a empezar de nuevo sin más que descomprimir de nuevo.
-\end{itemize}
-\end{enumerate}
+- Proyecto Interactivo `ValgrindShowcase`
+  - Descomprimir
+  - Cargar en Netbeans
+  - Ejecutar y seguir las instrucciones. Se puede volver a empezar de nuevo sin más que descomprimir de nuevo.
 
 # Manejo de ficheros de texto (muy básico)
 Los ficheros de texto permiten almacenar datos que  pueden leer los programas de forma masiva para procesarlos. Este apartado es una (muy breve) introducción al manejo de ficheros que se verá en teoría.
-\begin{enumerate}
-\item Guión sobre el manejo (muy básico) de ficheros de texto \mypdf{file:../Ficheros/Ficheros.pdf} 
-\item Videotutorial 1. Ficheros de entrada \myvideo{https://drive.google.com/file/d/1A3ToJaVXrF1k2bl0dz2xz1e3Hu4arvR8/view?usp=sharing}
-\item Videotutorial 2. Ficheros de salida \myvideo{https://drive.google.com/file/d/1xllMQyf0sQP-cfrGSabFi5shA4bUzMZc/view?usp=sharing}
-\item Videotutorial 3. Gestión de errores en el manejo de ficheros \myvideo{https://drive.google.com/file/d/19us64WCMXZyEd5um_MuZpLp5IqQU3nMV/view?usp=sharing}
-\end{enumerate}
+
+- Manual sobre el manejo (muy básico) de [ficheros de texto](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Ficheros.pdf)
+- Videotutorial 1. [Ficheros de entrada](https://drive.google.com/file/d/1A3ToJaVXrF1k2bl0dz2xz1e3Hu4arvR8/view?usp=sharing)
+- Videotutorial 2. [Ficheros de salida](https://drive.google.com/file/d/1xllMQyf0sQP-cfrGSabFi5shA4bUzMZc/view?usp=sharing)
+- Videotutorial 3. Gestión de [errores en el manejo de ficheros](https://drive.google.com/file/d/19us64WCMXZyEd5um_MuZpLp5IqQU3nMV/view?usp=sharing)
 
 ## Paso de argumentos a la función main()
 
 Esta es una técnica muy habitual para introducir datos en un programa desde la línea de comandos. Absolutamente imprescindible en programas de consola de Linux/Unix.
 
-\begin{itemize}
-\item Guión sobre el paso de argumentos \mypdf{}
-\item Videotutorial 1. \myvideo{https://drive.google.com/file/d/1xlVzVTwbFSWfhdaHGgNSq67bQo0c46nJ/view?usp=sharing}
-\item Videotutorial 2. \myvideo{https://drive.google.com/file/d/1HaYIyECXYuZ1FAMSlSB1P7PSj9qCXlXG/view?usp=sharing}
-\end{itemize}
+- Manual sobre el [paso de argumentos a main()](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/ArgumentosMain.pdf)
+- [Videotutorial 1](https://drive.google.com/file/d/1xlVzVTwbFSWfhdaHGgNSq67bQo0c46nJ/view?usp=sharing)
+- [Videotutorial 2](https://drive.google.com/file/d/1HaYIyECXYuZ1FAMSlSB1P7PSj9qCXlXG/view?usp=sharing)
 
 # Manejo de errores y excepciones 
 Breve introducción a la gestión de señales de error durante la ejecución de un programa y la gestión controlada de estos mediante el uso de excepciones. Videotutorial 
 
-\begin{enumerate}
-	\item Manejo de señales de error \myvideo{https://drive.google.com/file/d/1U0pBUxBrklBKLkZcgsIkClCeQxyf1Bv0/view?usp=sharing}
-	\item Manejo de excepciones \myvideo{https://drive.google.com/file/d/1aPJP1ft4OiQZED2dVGs7pbzy3nf7kQ1J/view?usp=sharing}
-\end{enumerate} 
+- Manejo de señales de error. [Videotutorial](https://drive.google.com/file/d/1U0pBUxBrklBKLkZcgsIkClCeQxyf1Bv0/view?usp=sharing)
+- Manejo de excepciones [Videotutorial](https://drive.google.com/file/d/1aPJP1ft4OiQZED2dVGs7pbzy3nf7kQ1J/view?usp=sharing)
+
 
 
 
