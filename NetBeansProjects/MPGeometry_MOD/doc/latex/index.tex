@@ -1,0 +1,44 @@
+Given two rectangles and a sequence of points this program calculates which points are inscribed within the intersection of the two rectangles
+\begin{DoxyItemize}
+\item programmatically sets the data of the first rectangle
+\item reads the second rectangle from keyboard
+\item calculates the intersection
+\begin{DoxyItemize}
+\item if the intersection is empty, it ends
+\item otherwise it reads the points and for each point
+\begin{DoxyItemize}
+\item Check if the point belongs the intersection
+\item Counts the number of points inscribed in the intersection
+\item The sequence ends when a point with any negative coordinate is read 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{      B\{(1,6) (6,1)\}}
+\DoxyCodeLine{6+     +-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/o}
+\DoxyCodeLine{ |     |                             |}
+\DoxyCodeLine{ |     |    A\{(2,5) (5,2)\}           |}
+\DoxyCodeLine{5+     |    +-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/o     |}
+\DoxyCodeLine{ |     |    |                  |     |}
+\DoxyCodeLine{ |     |    |                  |     |}
+\DoxyCodeLine{4+     |    |           o      |     |}
+\DoxyCodeLine{ |     |    |                  |     |}
+\DoxyCodeLine{ |     |    |                  |     |}
+\DoxyCodeLine{3+     |    |     o            |     |}
+\DoxyCodeLine{ |     |    |                  |     |}
+\DoxyCodeLine{ |     |    |                  |     |}
+\DoxyCodeLine{2+     |    o-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+     |}
+\DoxyCodeLine{ |     |                             |}
+\DoxyCodeLine{ |     |                             |}
+\DoxyCodeLine{1+     o-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{ |}
+\DoxyCodeLine{ |}
+\DoxyCodeLine{ o-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{ 0     1     2     3     4     5     6     7     8     9     10}
+\DoxyCodeLine{}
+\DoxyCodeLine{ A=\{(2,5) (5,2)\}     B=\{(1,6) (6,1)\}}
+\DoxyCodeLine{ I=\{(2,5) (5,2)\}}
+\DoxyCodeLine{ P=\{(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)\}}
+\DoxyCodeLine{ P(I)=\{(2,2), (3,3), (4,4), (5,5)\}}
+\end{DoxyCode}
+ 
+\end{DoxyItemize}
+\end{DoxyItemize}
+\end{DoxyItemize}

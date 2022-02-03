@@ -1,0 +1,131 @@
+\hypertarget{Rectangle_8cpp}{}\doxysection{src/\+Rectangle.cpp File Reference}
+\label{Rectangle_8cpp}\index{src/Rectangle.cpp@{src/Rectangle.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include \char`\"{}Point2\+D.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Rectangle.\+h\char`\"{}}\newline
+Include dependency graph for Rectangle.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{Rectangle_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRectangle}{Rectangle}} \mbox{\hyperlink{Rectangle_8cpp_a888d2b0113947b4461107bb02b28799d}{do\+Overlap}} (const \mbox{\hyperlink{classRectangle}{Rectangle}} \&r1, const \mbox{\hyperlink{classRectangle}{Rectangle}} \&r2)
+\item 
+bool \mbox{\hyperlink{Rectangle_8cpp_a5fe7cf71c1f13eed4b8144d0e00dc58d}{is\+Inside}} (const \mbox{\hyperlink{classPoint2D}{Point2D}} \&p, const \mbox{\hyperlink{classRectangle}{Rectangle}} \&r)
+\begin{DoxyCompactList}\small\item\em Calculates whether a point is internal to a rectangle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+lcv 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+16 de enero de 2020, 20\+:06 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{Rectangle_8cpp_a888d2b0113947b4461107bb02b28799d}\label{Rectangle_8cpp_a888d2b0113947b4461107bb02b28799d}} 
+\index{Rectangle.cpp@{Rectangle.cpp}!doOverlap@{doOverlap}}
+\index{doOverlap@{doOverlap}!Rectangle.cpp@{Rectangle.cpp}}
+\doxysubsubsection{\texorpdfstring{doOverlap()}{doOverlap()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRectangle}{Rectangle}} do\+Overlap (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classRectangle}{Rectangle}} \&}]{r1,  }\item[{const \mbox{\hyperlink{classRectangle}{Rectangle}} \&}]{r2 }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em r1} & One rectangle \\
+\hline
+{\em r2} & Other rectangle \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The rectangle given by the intersection of {\ttfamily r1} and {\ttfamily r2} 
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+This is an external function to the class \mbox{\hyperlink{classRectangle}{Rectangle}} but since it is also friend, this function is allowed access to private data/methods 
+\end{DoxyNote}
+
+
+Definition at line 59 of file Rectangle.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{59                                                                \{}
+\DoxyCodeLine{60     \mbox{\hyperlink{classRectangle}{Rectangle}} result;}
+\DoxyCodeLine{61     \mbox{\hyperlink{classPoint2D}{Point2D}} rTL, rBR;}
+\DoxyCodeLine{62     \textcolor{comment}{/* NO FRIEND}}
+\DoxyCodeLine{63 \textcolor{comment}{        rTL.setX(max(r1.getTopLeft().getX(),r2.getTopLeft().getX()));}}
+\DoxyCodeLine{64 \textcolor{comment}{        rTL.setY(max(r1.getTopLeft().getY(),r2.getTopLeft().getY()));}}
+\DoxyCodeLine{65 \textcolor{comment}{        rBR.setX(min(r1.getBottomRight().getX(),r2.getBottomRight().getX()));}}
+\DoxyCodeLine{66 \textcolor{comment}{        rBR.setY(min(r1.getBottomRight().getY(),r2.getBottomRight().getY()));}}
+\DoxyCodeLine{67 \textcolor{comment}{     */}}
+\DoxyCodeLine{68     rTL.\mbox{\hyperlink{classPoint2D_af268842e8f2e6072ffe345dc2f322046}{setX}}(max(r1.topleft.\mbox{\hyperlink{classPoint2D_a5cb1c2584e5b2bada0226a3e32aa2b1a}{getX}}(),r2.topleft.\mbox{\hyperlink{classPoint2D_a5cb1c2584e5b2bada0226a3e32aa2b1a}{getX}}()));}
+\DoxyCodeLine{69     rTL.\mbox{\hyperlink{classPoint2D_a0e08240b54e6eaae92c979082da1c91c}{setY}}(min(r1.topleft.\mbox{\hyperlink{classPoint2D_a53d10f2e460c47a493a3fbadfbafbb64}{getY}}(),r2.topleft.\mbox{\hyperlink{classPoint2D_a53d10f2e460c47a493a3fbadfbafbb64}{getY}}()));}
+\DoxyCodeLine{70     rBR.\mbox{\hyperlink{classPoint2D_af268842e8f2e6072ffe345dc2f322046}{setX}}(min(r1.bottomright.\mbox{\hyperlink{classPoint2D_a5cb1c2584e5b2bada0226a3e32aa2b1a}{getX}}(),r2.bottomright.\mbox{\hyperlink{classPoint2D_a5cb1c2584e5b2bada0226a3e32aa2b1a}{getX}}()));}
+\DoxyCodeLine{71     rBR.\mbox{\hyperlink{classPoint2D_a0e08240b54e6eaae92c979082da1c91c}{setY}}(max(r1.bottomright.\mbox{\hyperlink{classPoint2D_a53d10f2e460c47a493a3fbadfbafbb64}{getY}}(),r2.bottomright.\mbox{\hyperlink{classPoint2D_a53d10f2e460c47a493a3fbadfbafbb64}{getY}}()));}
+\DoxyCodeLine{72     result.\mbox{\hyperlink{classRectangle_a31c4b9fc0d1ddf912f114da494e50205}{setGeometry}}(rTL,rBR);}
+\DoxyCodeLine{73     \textcolor{keywordflow}{return} result; \textcolor{comment}{// Read more}}
+\DoxyCodeLine{74 \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{Rectangle_8cpp_a888d2b0113947b4461107bb02b28799d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Rectangle_8cpp_a5fe7cf71c1f13eed4b8144d0e00dc58d}\label{Rectangle_8cpp_a5fe7cf71c1f13eed4b8144d0e00dc58d}} 
+\index{Rectangle.cpp@{Rectangle.cpp}!isInside@{isInside}}
+\index{isInside@{isInside}!Rectangle.cpp@{Rectangle.cpp}}
+\doxysubsubsection{\texorpdfstring{isInside()}{isInside()}}
+{\footnotesize\ttfamily bool is\+Inside (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPoint2D}{Point2D}} \&}]{p,  }\item[{const \mbox{\hyperlink{classRectangle}{Rectangle}} \&}]{r }\end{DoxyParamCaption})}
+
+
+
+Calculates whether a point is internal to a rectangle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & The point \\
+\hline
+{\em r} & The rectangle \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{Return values}
+{\em true} & if {\ttfamily p} is inscribed within {\ttfamily r},\\
+\hline
+{\em false} & otherwise \\
+\hline
+\end{DoxyRetVals}
+
+
+Definition at line 76 of file Rectangle.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{76                                                     \{}
+\DoxyCodeLine{77     \textcolor{keywordflow}{return} r.\mbox{\hyperlink{classRectangle_a812afd6deed0cdec0b4ad7b2bd93871d}{getTopLeft}}().\mbox{\hyperlink{classPoint2D_a5cb1c2584e5b2bada0226a3e32aa2b1a}{getX}}() <= p.\mbox{\hyperlink{classPoint2D_a5cb1c2584e5b2bada0226a3e32aa2b1a}{getX}}() \&\& p.\mbox{\hyperlink{classPoint2D_a5cb1c2584e5b2bada0226a3e32aa2b1a}{getX}}()<=r.\mbox{\hyperlink{classRectangle_a5f30a92f3fc197dda50d9e59995d3ac1}{getBottomRight}}().\mbox{\hyperlink{classPoint2D_a5cb1c2584e5b2bada0226a3e32aa2b1a}{getX}}() \&\&}
+\DoxyCodeLine{78            r.\mbox{\hyperlink{classRectangle_a812afd6deed0cdec0b4ad7b2bd93871d}{getTopLeft}}().\mbox{\hyperlink{classPoint2D_a53d10f2e460c47a493a3fbadfbafbb64}{getY}}() >= p.\mbox{\hyperlink{classPoint2D_a53d10f2e460c47a493a3fbadfbafbb64}{getY}}() \&\& p.\mbox{\hyperlink{classPoint2D_a53d10f2e460c47a493a3fbadfbafbb64}{getY}}()>=r.\mbox{\hyperlink{classRectangle_a5f30a92f3fc197dda50d9e59995d3ac1}{getBottomRight}}().\mbox{\hyperlink{classPoint2D_a53d10f2e460c47a493a3fbadfbafbb64}{getY}}(); }
+\DoxyCodeLine{79 \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{Rectangle_8cpp_a5fe7cf71c1f13eed4b8144d0e00dc58d_cgraph}
+\end{center}
+\end{figure}

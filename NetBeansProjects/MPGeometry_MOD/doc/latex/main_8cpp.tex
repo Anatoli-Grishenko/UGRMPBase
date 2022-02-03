@@ -1,0 +1,101 @@
+\hypertarget{main_8cpp}{}\doxysection{src/main.cpp File Reference}
+\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include \char`\"{}Point2\+D.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Rectangle.\+h\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Main function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+D\+E\+C\+S\+AI 
+\end{DoxyAuthor}
+\begin{DoxyNote}{Note}
+To be implemented (partially) by students 
+\end{DoxyNote}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main function. 
+
+\begin{DoxyReturn}{Returns}
+Always 0 
+\end{DoxyReturn}
+
+
+Definition at line 64 of file main.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{64            \{}
+\DoxyCodeLine{65     \mbox{\hyperlink{classRectangle}{Rectangle}} A, B, Intersection;}
+\DoxyCodeLine{66     \mbox{\hyperlink{classPoint2D}{Point2D}} p; }
+\DoxyCodeLine{67     \textcolor{keywordtype}{int} count;}
+\DoxyCodeLine{68     }
+\DoxyCodeLine{69     }
+\DoxyCodeLine{70     }
+\DoxyCodeLine{71     A.\mbox{\hyperlink{classRectangle_a31c4b9fc0d1ddf912f114da494e50205}{setGeometry}}(2,5,3,3);}
+\DoxyCodeLine{72     cout << \textcolor{stringliteral}{"First rectangle is "}; }
+\DoxyCodeLine{73     A.\mbox{\hyperlink{classRectangle_a4e315c59754599c74e99e8b31f7031a0}{print}}();}
+\DoxyCodeLine{74     cout << endl << \textcolor{stringliteral}{"Type second rectangle: "};}
+\DoxyCodeLine{75     B.\mbox{\hyperlink{classRectangle_af6973ed3094f9dbabeadb071772fa76d}{read}}();}
+\DoxyCodeLine{76     cout << endl << \textcolor{stringliteral}{"Calculating intersection of: "};}
+\DoxyCodeLine{77     A.\mbox{\hyperlink{classRectangle_a4e315c59754599c74e99e8b31f7031a0}{print}}();}
+\DoxyCodeLine{78     cout << \textcolor{stringliteral}{" and "};}
+\DoxyCodeLine{79     B.\mbox{\hyperlink{classRectangle_a4e315c59754599c74e99e8b31f7031a0}{print}}();}
+\DoxyCodeLine{80     cout << endl;}
+\DoxyCodeLine{81     Intersection = \mbox{\hyperlink{Rectangle_8cpp_a888d2b0113947b4461107bb02b28799d}{doOverlap}}(A,B);}
+\DoxyCodeLine{82     \textcolor{keywordflow}{if} (Intersection.\mbox{\hyperlink{classRectangle_af732bce8c96d2469994825e9a87dbe5f}{isEmpty}}()) \{}
+\DoxyCodeLine{83         cerr << \textcolor{stringliteral}{"Empty intersection"}<<endl;}
+\DoxyCodeLine{84     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{85         cout << \textcolor{stringliteral}{"The intersection is: "};}
+\DoxyCodeLine{86         Intersection.\mbox{\hyperlink{classRectangle_a4e315c59754599c74e99e8b31f7031a0}{print}}();}
+\DoxyCodeLine{87         count = 0;}
+\DoxyCodeLine{88         cout << endl << \textcolor{stringliteral}{"Reading points..."};}
+\DoxyCodeLine{89         p.\mbox{\hyperlink{classPoint2D_ac13d12003e2da9afee19a6a3f526c660}{read}}();}
+\DoxyCodeLine{90         \textcolor{keywordflow}{while} (p.\mbox{\hyperlink{classPoint2D_a5cb1c2584e5b2bada0226a3e32aa2b1a}{getX}}()>=0 \&\& p.\mbox{\hyperlink{classPoint2D_a53d10f2e460c47a493a3fbadfbafbb64}{getY}}()>=0) \{}
+\DoxyCodeLine{91             \textcolor{keywordflow}{if} (\mbox{\hyperlink{Rectangle_8h_a5fe7cf71c1f13eed4b8144d0e00dc58d}{isInside}}(p,Intersection)) \{}
+\DoxyCodeLine{92                 p.\mbox{\hyperlink{classPoint2D_a4be0cc5bb62eef12bfa55ced97d03535}{print}}();}
+\DoxyCodeLine{93                 count ++;}
+\DoxyCodeLine{94             \} }
+\DoxyCodeLine{95             p.\mbox{\hyperlink{classPoint2D_ac13d12003e2da9afee19a6a3f526c660}{read}}();}
+\DoxyCodeLine{96         \}}
+\DoxyCodeLine{97         \textcolor{keywordflow}{if} (count > 0)}
+\DoxyCodeLine{98             cout << \textcolor{stringliteral}{" fall within the intersection ("}<< count<<\textcolor{stringliteral}{" total)"} << endl;}
+\DoxyCodeLine{99         \textcolor{keywordflow}{else}}
+\DoxyCodeLine{100             cout << \textcolor{stringliteral}{" None of them falls within the intersection "}<<endl;}
+\DoxyCodeLine{101     \}}
+\DoxyCodeLine{102 }
+\DoxyCodeLine{103     \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{104 \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}
