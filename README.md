@@ -25,6 +25,8 @@
 - Y, finalmente una última opción: el servidor de imágenes virtuales de la [ETSIIT](https://turing.ugr.es/). Arrancar con Ubuntu 18. Ya tiene instalado NetBeans 11.2 y C++. 
 
 # Secuencia de prácticas
+[Vídeo](https://drive.google.com/file/d/1lTrPnTtKKIxiF_Rg1xlbm4ZsR5EFccCU/view?usp=sharing) de introducción a la esteganografía
+
 |Comienzo | Práctica | Herramientas | Metodología
 | -----| -----|-----| ----- |
 |Semana1 21/feb/2022 |[**Imaging0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Imaging0.pdf) Acceso a memoria a nivel de bit| [**NetBeans 1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Entorno | Separar declaración de implementación de métodos. Métodos `const`.Parámetros por valor y por referencia. Paso de vectores a funciones y métodos |
