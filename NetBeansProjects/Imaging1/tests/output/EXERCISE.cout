@@ -1,0 +1,17 @@
+
+byte apagado bits: 
+
+Inicializo el byte a partir de un vector de bool 
+
+Ahora enciendo los bits 0, 1 y 2 con la funcion on 
+
+Los bits encendidos estan en las posiciones: 
+
+Todos encendidos: 
+Todos apagados: 
+
+
+Ejemplo 1 
+
+Ahora la animacion
+Ejemplo 2 

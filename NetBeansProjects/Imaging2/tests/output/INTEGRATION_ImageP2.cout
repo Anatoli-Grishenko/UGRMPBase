@@ -1,0 +1,17 @@
+
+...Reading image from ./data/burgerking.pgm
+150x84
+Found object 0 in [182,183]
+Found object 1 in [164,165]
+Found object 2 in [107,108]
+Found object 3 in [65,67]
+Found 4objects
+
+...Saving image into ./data/0.pgm
+
+...Saving image into ./data/1.pgm
+
+...Saving image into ./data/2.pgm
+
+...Saving image into ./data/3.pgm
+Press [RETURN] to continue ...

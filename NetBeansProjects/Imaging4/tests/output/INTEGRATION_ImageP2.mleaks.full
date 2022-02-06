@@ -1,0 +1,179 @@
+MEMORY LEAK REPORT BY Dr Memory 
+
+dom 06 feb 2022 08:28:39 CET
+
+
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      18 unique,    88 total,   9288 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-dash.447807.000/results.txt
+
+[im_input] 500x282 4105296496
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ WARNING: application is missing line number information.
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      18 unique,    88 total,   9288 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-dash.447809.000/results.txt
+
+[im_input] 500x282 4105296496
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ WARNING: application is missing line number information.
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      18 unique,    88 total,   9288 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-dash.447813.000/results.txt
+
+[im_copyfrom] 89x84 1714063812
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      17 unique,   171 total,  64673 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-display-im6.q16.447808.000/results.txt
+~~Dr.M~~ WARNING: application is missing line number information.
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      18 unique,    88 total,   9288 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-dash.447815.000/results.txt
+
+[im_bin] 89x84 3205833621
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ WARNING: application is missing line number information.
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      17 unique,   171 total,  64673 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-display-im6.q16.447810.000/results.txt
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      18 unique,    88 total,   9288 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-dash.447818.000/results.txt
+
+[im_collection[0]] 89x84 2366925379
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      17 unique,   171 total,  64673 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-display-im6.q16.447814.000/results.txt
+~~Dr.M~~ WARNING: application is missing line number information.
+~~Dr.M~~ Dr. Memory version 2.3.0
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      18 unique,    88 total,   9288 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-dash.447822.000/results.txt
+
+[im_output] 500x282 805563168
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      17 unique,    35 total,  98123 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-imaging4.447806.000/results.txt
+~~Dr.M~~ WARNING: application is missing line number information.
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      17 unique,   171 total,  64673 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-display-im6.q16.447817.000/results.txt
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      17 unique,   171 total,  64673 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-display-im6.q16.447820.000/results.txt
+~~Dr.M~~ 
+~~Dr.M~~ NO ERRORS FOUND:
+~~Dr.M~~       0 unique,     0 total unaddressable access(es)
+~~Dr.M~~       0 unique,     0 total invalid heap argument(s)
+~~Dr.M~~       0 unique,     0 total warning(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of leak(s)
+~~Dr.M~~       0 unique,     0 total,      0 byte(s) of possible leak(s)
+~~Dr.M~~ ERRORS IGNORED:
+~~Dr.M~~      17 unique,   171 total,  64673 byte(s) of still-reachable allocation(s)
+~~Dr.M~~          (re-run with "-show_reachable" for details)
+~~Dr.M~~ Details: /tmp/Dr. Memory/DrMemory-display-im6.q16.447824.000/results.txt

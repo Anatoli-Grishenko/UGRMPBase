@@ -1,0 +1,5 @@
+# SIMPLIFIED MEMORY LEAK REPORT BY Dr Memory 
+
+dom 06 feb 2022 08:28:41 CET
+
+

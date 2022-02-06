@@ -1,0 +1,11 @@
+
+...Reading image from data/telediario.pgm
+500x282
+
+...Reading image from data/kfc.pgm
+89x84
+Thresholding to level 117
+Found object 0 in [249,251]
+Found object 1 in [229,230]
+Found object 2 in [227,228]
+Press [RETURN] to continue ...
