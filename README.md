@@ -54,6 +54,7 @@ En esta sección encontrarás manuales y videotutoriales sobre temas específico
 NetBeans es un entorno de desarrollo integrado libre y multiplataforma, creado principalmente para el lenguaje de programación Java, pero que ofrece soporte para otros muchos lenguajes de programación. Existe además un número importante de módulos para extenderlo. NetBeans es un producto libre y gratuito sin restricciones de uso. 
 - [Manual de referencia](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf)
 - [Primeros pasos](https://drive.google.com/file/d/1MFbCDJAiMJctlN_jPIfwlhWqPi0TGWiI/view?usp=sharing)
+- [Hello world!](https://drive.google.com/file/d/1qKz2fZ2vflcn6Kag8BcFCd9UKICFmn-1/view?usp=sharing)
 - [Directivas del precompilador](https://drive.google.com/file/d/1-nneQyafIa58DgtlcD3x2bCDXL93N1au/view?usp=sharing)
 
 
@@ -63,8 +64,6 @@ Doxygen es un programa de apoyo a la documentación (comentarios) de proyectos d
 
 - [Manual de doxygen](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/doxygen.pdf)
 - [Videotutorial](https://drive.google.com/drive/u/1/folders/1Ki1RYMaBIORurj7MiQUqWsCBt_lsbPfv) 
-- [Hello world!](https://drive.google.com/file/d/1qKz2fZ2vflcn6Kag8BcFCd9UKICFmn-1/view?usp=sharing)
-- [Directivas del precompilador](https://drive.google.com/file/d/1-nneQyafIa58DgtlcD3x2bCDXL93N1au/view?usp=sharing)
 
 ## Compilación separada
 Es una metodología de desarrollo de proyectos de software que divide el proyecto en unidades funcionales, llamados módulos o paquetes o bibliotecas (librerías), que se compilan por separado y se enlazan en un único fichero
