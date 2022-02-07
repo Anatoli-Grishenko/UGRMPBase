@@ -13,7 +13,7 @@
     cd UGRMPbase
     git pull
     ```
-  - [Videotutorial](https://drive.google.com/file/d/1sxjvPOP9VChG-1PW2I3iZF-wVbesABo4/view?usp=sharing) Preparando el entorno de trabajo 
+  - [Videotutorial](https://drive.google.com/file/d/1MFbCDJAiMJctlN_jPIfwlhWqPi0TGWiI/view?usp=sharing) Preparando el entorno de trabajo 
 	- Paquetes de Linux que deben estar presentes durante las prácticas (sudo apt install) `gcc` `make`    `valgrind`     `wdiff`  `doxygen`    `ImageMagick` `git` `graphviz`
  - Para aquellos que decidáis la opción de VirtualBox, el profesorado de MP hemos preparado una copia de una máquina virtual ya preparada con Linux, NetBeans y C++. Aquí tenéis las instrucciones  para instalarla. Son tres pasos muy sencillos ![MP_VBOXc](https://user-images.githubusercontent.com/9058636/152649408-c228ab4f-d8c1-4ef8-8e56-81230dd63986.png)
  
@@ -53,6 +53,9 @@ En esta sección encontrarás manuales y videotutoriales sobre temas específico
 ## El entorno de desarrollo NetBeans
 NetBeans es un entorno de desarrollo integrado libre y multiplataforma, creado principalmente para el lenguaje de programación Java, pero que ofrece soporte para otros muchos lenguajes de programación. Existe además un número importante de módulos para extenderlo. NetBeans es un producto libre y gratuito sin restricciones de uso. 
 - [Manual de referencia](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf)
+- [Primeros pasos](https://drive.google.com/file/d/1MFbCDJAiMJctlN_jPIfwlhWqPi0TGWiI/view?usp=sharing)
+- [Hello world!](https://drive.google.com/file/d/1qKz2fZ2vflcn6Kag8BcFCd9UKICFmn-1/view?usp=sharing)
+- [Directivas del precompilador](https://drive.google.com/file/d/1-nneQyafIa58DgtlcD3x2bCDXL93N1au/view?usp=sharing)
 
 
 ## Documentación con Doxygen
