@@ -1,0 +1,7 @@
+<map id="isInside" name="isInside">
+<area shape="rect" id="node1" title="Calculates whether a point is internal to a rectangle." alt="" coords="5,81,77,108"/>
+<area shape="rect" id="node2" href="$classRectangle.html#a5f30a92f3fc197dda50d9e59995d3ac1" title="Queries the bottom&#45;right corner." alt="" coords="125,5,324,32"/>
+<area shape="rect" id="node3" href="$classRectangle.html#a812afd6deed0cdec0b4ad7b2bd93871d" title="Queries the top&#45;left corner." alt="" coords="143,56,306,83"/>
+<area shape="rect" id="node4" href="$classPoint2D.html#a5cb1c2584e5b2bada0226a3e32aa2b1a" title="Queries the X coordinate." alt="" coords="169,107,280,133"/>
+<area shape="rect" id="node5" href="$classPoint2D.html#a53d10f2e460c47a493a3fbadfbafbb64" title="Queries the Y coordinate." alt="" coords="169,157,280,184"/>
+</map>

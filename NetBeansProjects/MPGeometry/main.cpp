@@ -146,8 +146,8 @@ public:
     Rectangle(int x, int y, int w, int h) {
         topleft.setX(x);
         topleft.setY(y);
-        bottomright.setX(x+w-1);
-        bottomright.setY(y+h-1);
+        bottomright.setX(x+w);
+        bottomright.setY(y-h);
         // setGeometry(x,y,w,h);
     }
     
