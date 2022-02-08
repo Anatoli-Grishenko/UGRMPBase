@@ -18,3 +18,10 @@ As of Feb  7 2022 21:32:19
 | 6::2 | _02_Intermediate.Rectangle_getTopLeft | PASSED | OK |
 | 7::1 | _02_Intermediate.Rectangle_isEmpty | PASSED | OK |
 | 7::2 | _02_Intermediate.Rectangle_isEmpty | PASSED | OK |
+| 8::1 | _03_Advanced.Rectangle_doOverlap | PASSED | OK |
+| 8::2 | _03_Advanced.Rectangle_doOverlap | PASSED | OK |
+| 8::3 | _03_Advanced.Rectangle_doOverlap | PASSED | OK |
+| 9::1 | _03_Advanced.INTEGRATION_v_0inside | PASSED | OK |
+| 10::1 | _03_Advanced.INTEGRATION_v_1inside | PASSED | OK |
+| 11::1 | _03_Advanced.INTEGRATION_v_4inside | PASSED | OK |
+| 12::1 | _03_Advanced.INTEGRATION_v_empty | PASSED | OK |

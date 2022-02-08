@@ -58,3 +58,24 @@ TEST_F(_02_Intermediate,Rectangle_isEmpty) {
     r1.setGeometry(p2,p1);
     SKIP_ASSERT_TRUE_R(r1.isEmpty())<<"isEmpty is wrong"<<endl;
 }
+
+
+TEST_F(_03_Advanced,Rectangle_doOverlap) {
+    Point2D p1(10,10),p2(20,2), pmid(15,6), porigin(0,20);
+    Rectangle r1, r2, r3, result;
+    string whatmustbe, whatis;
+    r1.setGeometry(p1,p2);
+    r2.setGeometry(pmid, p2);
+    result = doOverlap(r1,r2);
+    SKIP_ASSERT_FALSE_R(result.isEmpty())<<"doOverlap is wrong"<<endl;
+    whatmustbe = r2.inspect();
+    whatis = result.inspect();
+    SKIP_ASSERT_STREQ_R(whatmustbe.c_str(), whatis.c_str()) << "doOverlap is wrong"<<endl;
+
+    r1.setGeometry(porigin,p1);
+    r2.setGeometry(pmid,p2);
+    result = doOverlap(r1,r2);
+    SKIP_ASSERT_TRUE_R(result.isEmpty())<<"doOverlap is wrong"<<endl;
+}
+
+
