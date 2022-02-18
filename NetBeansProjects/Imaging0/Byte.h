@@ -20,15 +20,17 @@ typedef unsigned char Byte; ///< A @c Byte contains the state of  8 Bits
 #define MIN_BIT 0 ///> Rightmost bit
 #define MAX_BIT 8 ///> Leftmost bit
 /**
-@brief Turns on the @p position bit of @c Byte @p b
-@param b 	the @c Byte
+@brief Turns on the @p position bit of @c Byte @p b, whenever the value of pos is in [0..7] otherwise
+ * Byte remains unchanged.
+@param b 	the @c Byte, output parameter
 @param pos 	 the position @p b of the bit within the Byte (0 means the rightmost position)
 */
 void onBit(Byte b, int pos);
 
 /**
-@brief Turns off the @p position bit of @c Byte @p b
-@param b 	the @c Byte
+@brief Turns off the @p position bit of @c Byte @p b, , whenever the value of pos is in [0..7] otherwise
+ * Byte remains unchanged.
+@param b 	the @c Byte, output parameter
 @param pos 	 the position @p b of the bit within the Byte (0 means the rightmost position)
 */
 void offBit(Byte b, int pos);
@@ -65,24 +67,24 @@ void offByte(Byte b);
 @brief Turns on just the bits contained in the vector. That is, if vector[i] is true,
  * then the bit at the position @a i is turned on.
 @param b 	the @c Byte
-@param v A vector of 8 elements representing which bits are to be turned on
+@param v A vector of 8 elements representing which bits are to be turned on. b output parameter
 */
 void encodeByte(Byte b,  bool v[]);
 
 /**
 @brief It dumps the bits in the Byte into the vector, such as, if bit @a i is 1, then vector[i] is true
 @param b 	the @c Byte
-@param v A vector of 8 elements representing which bits are turned on
+@param v A vector of 8 elements representing which bits are turned on. v output parameter
  */
 void decodeByte(Byte b, bool v[]);
 
 /**
 @brief It returns a vector of int, such that if vector[i]=k, then the bit at the position @a k is 1
 @param b 	the @c Byte
-@param posic An array of positions that contains a bit set to 1
-@param Number of bits 1 in the byte
+@param posits An array of positions that contains a bit set to 1, output parameter. 
+@param n Number of bits 1 in the byte. output parameter.
 */
-void decomposeByte(Byte b, int posic[], int cuantos);
+void decomposeByte(Byte b, int posits[], int &n);
 
 /**
  * @brief Shifts the byte @a n bits to the right, overflowing the rightmost bits
