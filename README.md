@@ -1,5 +1,6 @@
 # UGRMPBase Un repo base para la asignatura Metodología de la programación
 
+![image](https://user-images.githubusercontent.com/9058636/154716516-2ef804b3-e2f4-4cdc-971e-771049323063.png)
 Para estar al día de las incidencias de la asignatura y tener contacto directo con los profesores puedes unirte al grupo de Telegram de algunas titulaciones
 - Doble Grado Informática y Matemáticas https://t.me/+B9wefu_74kQwZDRk
 
