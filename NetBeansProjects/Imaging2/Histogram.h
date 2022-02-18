@@ -1,6 +1,9 @@
 /**
  * @file Histogram.h
- * @author MP
+ * @brief Useful tool for the study of images, compute the frequencies of grey tones.
+ * @note To be implemented by students. Revise the prototype declarations in order 
+ * to respect the condition for a correct communication among modules (input/output parameters as copy/ reference parameters...)
+ * @author MP-DGIM, MP-IADE, MP-II (grupo B) 
  */
 #include <istream>
 #include <fstream>
@@ -23,7 +26,7 @@ public:
 
 
     /**
-     * @brief It builds an empty
+     * @brief It builds an empty. Modifier.
      */
     Histogram();
     /**
@@ -32,7 +35,7 @@ public:
      */
     int size() const;
     /**
-     * @brief Sets the whole histogram to 0
+     * @brief Sets the whole histogram to 0. Modifier.
      */
     void clear();
     /**
@@ -42,7 +45,7 @@ public:
      */
     int getLevel(Byte level) const;
     /**
-     * @brief It sets the value associated to the level
+     * @brief It sets the value associated to the level. Modifier.
      * @param level The level
      * @param npixeles The new value
      */
@@ -53,13 +56,17 @@ public:
      */
     int getMaxLevel() const;
     /**
-     * @brief it returns the average value stored
+     * @brief it returns the average value stored (divisor the length of vector)
      * @return The average level
      */
     int getAverageLevel() const;
     /**
      * It returns a balance level, that is, the level that leaves half of the points
-     * underneath or equal to it.
+     * underneath or equal to it (math concept of median).
+     * ex1. _data[4] = {5,5,0,10};  half -> 10
+     * result 1
+     * ex2. _data[4] = {10,5,5,0};  half -> 10
+     * result 0
      * @return The point of balance of the histogram
      */
     int getBalancedLevel() const; 
