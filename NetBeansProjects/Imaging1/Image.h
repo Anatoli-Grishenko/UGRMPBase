@@ -1,7 +1,9 @@
 /**
 @file Image.h
-@brief Manejo de imágenes digitales en formato PGM blanco y negro
-@author MP-DGIM - Grupo A
+@brief First class for management of black and white images in PGM format
+@note To be implemented by students. Revise the prototype declaration in order 
+ * to respect the condition for a correct communication among modules (input/output parameters as copy/ reference parameters...)
+@author MP-DGIM, MP-IADE, MP-II (grupo B) 
  **/
 
 #ifndef _IMAGE_H_
@@ -24,17 +26,17 @@ public:
     static const int IMAGE_TOO_LARGE=4; ///< The image is too large and does not fit into memory
     
     /**
-     * @brief It builds an empty, image
+     * @brief It builds an empty, image. Modifier method.
      */
     Image();
     /**
-     * @brief It builds a fully black image with @a width columns and @a height rows
+     * @brief It builds a fully black image with @a width columns and @a height rows. Modifier method.
      * @param height number of rows
      * @param width number of columns
      */
     Image(int width, int height);
     /**
-    @brief It gives the number of rows of the image
+    @brief It gives the number of rows of the image. Query method.
     @return number of rows
      */
     int height() const;
@@ -45,7 +47,7 @@ public:
     int width() const;
     /**
      * @brief It assigns the value @a v to the position(x,y) of the image.It must check that
-     * the values x and y are valid, otherwise, it does not do anything.
+     * the values x and y are valid, otherwise, it does not do anything. Modifier method.
      * @param x The column
      * @param y the row
      * @param v The new value
@@ -54,7 +56,7 @@ public:
     /**
      * @brief It returns the value of the requested (x,y) position. It must check that
      * the values x and y are valid, otherwise, it returns a negative value. Please note that
-     * the value returned is a int in order to allow negative values
+     * the value returned is a int in order to allow negative values. Query method.
      * @param x The column
      * @param y the row
      * @return The value of the pixel in [0-256] or -1 if there is an access error
@@ -62,7 +64,7 @@ public:
     int getPixel(int x, int y) const;
     /**
      * @brief It assigns the value @a v to the linear position i of the image. It must check that
-     * the values i is valid, otherwise, it does not do anythig.
+     * the values i is valid, otherwise, it does not do anythig. Modifier method.
      * @param i The linear position
      * @param v The new value
      */
@@ -84,7 +86,7 @@ public:
     /**
      * @brief It shows an image in an external window, ready for inspection. It uses
      * the program display (ImageMagick) to display every image. For an easier identification 
-     * process of all images shown are labeled with a title
+     * every image is labeled with a title. Query method.
      * @param title The title on top of the window
      */
     void showInWindow(std::string title) const;
@@ -95,9 +97,8 @@ public:
      */
     std::string inspect() const;    /**
      * @brief It calculates the histogram of the image, and returns it into the array values such 
-     * that values[i] = number of pixels whose tone is i
-     * @param values The array of pixel counts. The sum of all these values must be, exactly
-     * width()*height()  
+     * that values[i] = number of pixels whose tone is i. Query method.
+     * @param values The array of pixel counts. The sum of all these values must be, exactly, output parameter.
      */
     void getHistogram(int values[]) const; 
 private:
