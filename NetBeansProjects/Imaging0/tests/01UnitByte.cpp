@@ -76,10 +76,10 @@ TEST_F(_01_Basics, UnitByte_shiftLByte) {
     SKIP_ASSERT_EQ_R(b,254) << "A byte 11111111 shifted to the left gives 254"<< endl;
     b = 255;
     shiftLByte(b,2);
-    SKIP_ASSERT_EQ_R(b,252) << "A byte 11111111 shifted twice to the right gives 252"<< endl;
+    SKIP_ASSERT_EQ_R(b,252) << "A byte 11111111 shifted twice to the left gives 252"<< endl;
     b = 1;
     shiftLByte(b,1);
-    SKIP_ASSERT_EQ_R(b,2) << "A byte 00000001 shifted to the right gives 2"<< endl;
+    SKIP_ASSERT_EQ_R(b,2) << "A byte 00000001 shifted to the left gives 2"<< endl;
 }
 
 TEST_F(_02_Intermediate, UnitByte_onByte) {

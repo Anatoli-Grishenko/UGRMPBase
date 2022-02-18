@@ -19,7 +19,7 @@ TEST_F(_01_Basics, Image_Constructor) {
     w = 0;
     h = 0;
     Image I;
-    SKIP_ASSERT_STREQ_R(I.inspect().c_str(), "0x0 37") << "A newly created instance " << describeImage(I) << " gives " << w << "x" << h << " and empty data " << endl;
+    SKIP_ASSERT_STREQ_R(I.inspect().c_str(), "0x0 ") << "A newly created instance " << describeImage(I) << " gives " << w << "x" << h << " and empty data " << endl;
     w = 5;
     h = 5;
     Image I2(w, h);
