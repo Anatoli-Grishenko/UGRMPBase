@@ -30,8 +30,9 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 - Y, finalmente una última opción: el servidor de imágenes virtuales de la [ETSIIT](https://turing.ugr.es/). Arrancar con Ubuntu 18. Ya tiene instalado NetBeans 11.2 y C++. 
 
 # Secuencia de prácticas
-[Vídeo](https://drive.google.com/file/d/17rp360AmxgOqLWHOID4K4uqDfK7uteHL/view?usp=sharing) sobre las prácticas, su evolución y su temporización
-[Vídeo](https://drive.google.com/file/d/1lTrPnTtKKIxiF_Rg1xlbm4ZsR5EFccCU/view?usp=sharing) de introducción a la esteganografía
+
+1. [Vídeo](https://drive.google.com/file/d/17rp360AmxgOqLWHOID4K4uqDfK7uteHL/view?usp=sharing) sobre las prácticas, su evolución y su temporización
+1. [Vídeo](https://drive.google.com/file/d/1lTrPnTtKKIxiF_Rg1xlbm4ZsR5EFccCU/view?usp=sharing) de introducción a la esteganografía
 
 |Comienzo | Práctica | Herramientas | Metodología
 | -----| -----|-----| ----- |
