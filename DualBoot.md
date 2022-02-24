@@ -11,7 +11,7 @@
 - [Reducir partición Windows](https://support.microsoft.com/en-us/topic/microsoft-support-how-to-re-partition-without-destroying-the-data-c3d64de0-4672-b21f-de4e-b4908fb35ae3#:~:text=Begin%20%2D%3E%20Right%20click%20Computer%20%2D,amount%20of%20space%20to%20shrink)
 - Acceder BIOS
   - [Deshabilitar Secure Boot](https://itsfoss.com/disable-secure-boot-windows/) 
-  - Cambiar orden de arranque para poner USB primero (ver)
+  - [Cambiar orden de arranque para poner USB primero](https://www.lifewire.com/change-the-boot-order-in-bios-2624528)
 
 ## Instalar Linux
 - Apagar el ordenador e introducir USB Linux
