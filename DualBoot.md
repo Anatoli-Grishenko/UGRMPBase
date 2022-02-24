@@ -10,6 +10,8 @@
 - Acceder BIOS
   - Deshabilitar Secure Boot (ver) https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/ 
   - Cambiar orden de arranque para poner USB primero (ver)
+
+## Instalar Linux
 - Apagar el ordenador e introducir USB Linux
 - Reiniciar y arrancar USB Linux
 - Instalar en la partición recién creada
