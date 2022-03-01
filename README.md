@@ -1,5 +1,9 @@
 # UGRMPBase Un repo base para la asignatura Metodología de la programación
 
+![image](https://user-images.githubusercontent.com/9058636/154716516-2ef804b3-e2f4-4cdc-971e-771049323063.png)
+Para estar al día de las incidencias de la asignatura y tener contacto directo con los profesores puedes unirte al grupo de Telegram de algunas titulaciones
+- Doble Grado Informática y Matemáticas https://t.me/+B9wefu_74kQwZDRk
+
 # Preparandolo todo
 -  [Videotutorial](https://drive.google.com/file/d/1VO7ib1QnUlEk1pHtn4F7D6QJwZZykgbo/view?usp=sharing) introducción a la asignatura.
 - Documentos de apoyo al videotutorial para la preparación del entorno de trabajo en el ordenador. En él se describe, a rasgos generales, cómo preparar el ordenador para la asignatura e incluye enlaces a otros videotutoriales, PDF, o Webs con descripciones más precisas de cada aspecto concreto. Este documento en PDF que aparece aquí son las transparencias del videotutorial y contiene los enlaces desde los que acceder a las herramientas y documentos que se citan en el vídeo. 
@@ -24,9 +28,16 @@
    - Password `.CambiaEsto`
 - Laboratorios de prácticas de la ETSIIT. Arranque con Ubuntu 20.04. El resto de herramientas ya están instaladas.
 - Y, finalmente una última opción: el servidor de imágenes virtuales de la [ETSIIT](https://turing.ugr.es/). Arrancar con Ubuntu 18. Ya tiene instalado NetBeans 11.2 y C++. 
+- Enlaces interesantes
+   - [Descargar la imagen de Ubuntu](https://ubuntu.com/download/desktop)
+   - [Tutorial sobre la instalación dual Linux/Windows](https://www.youtube.com/watch?v=qSbRnYWwnxI)
+   - [Tutorial instalación NetBeans](https://www.youtube.com/watch?v=zCJpPZ548Oo)
+   - [Tutorial instalación plugin C++ para NetBeans](https://www.youtube.com/watch?v=ZA1iRNznGug)
 
 # Secuencia de prácticas
-[Vídeo](https://drive.google.com/file/d/1lTrPnTtKKIxiF_Rg1xlbm4ZsR5EFccCU/view?usp=sharing) de introducción a la esteganografía
+
+1. [Vídeo](https://drive.google.com/file/d/17rp360AmxgOqLWHOID4K4uqDfK7uteHL/view?usp=sharing) sobre las prácticas, su evolución y su temporización
+1. [Vídeo](https://drive.google.com/file/d/1lTrPnTtKKIxiF_Rg1xlbm4ZsR5EFccCU/view?usp=sharing) de introducción a la esteganografía
 
 |Comienzo | Práctica | Herramientas | Metodología
 | -----| -----|-----| ----- |
