@@ -52,6 +52,14 @@ public:
      * @brief Prints the XY values in the screen  in the form (X,Y)
      */
     void print() const;
+
+    
+    /**
+     * @brief Only for testing purposes
+     * @return A serialization of the content of the class
+     */
+    std::string inspect() const;
+    
 };
 #endif /* POINT2D_H */
 

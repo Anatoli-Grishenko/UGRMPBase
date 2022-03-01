@@ -42,3 +42,9 @@ void Point2D::print() const {
     cout << "("<<px << "," << py<<")";
 }
 
+string Point2D::inspect() const{
+    string res="";
+    res = res+"("+to_string(getX())+","+to_string(getY())+")";
+//    res = to_string(mphash((unsigned char *)res.c_str(), res.length()));
+    return res;
+}

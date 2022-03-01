@@ -77,6 +77,13 @@ public:
      * is also friend, this function is allowed access to private data/methods
      */    
     friend Rectangle doOverlap(const Rectangle & r1, const Rectangle &r2);
+    
+    /**
+     * @brief Only for testing purposes
+     * @return A serialization of the content of the class
+     */
+    std::string inspect() const;
+    
 };
 
 /**

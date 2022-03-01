@@ -78,3 +78,9 @@ bool isInside(const Point2D &p, const Rectangle &r) {
            r.getTopLeft().getY() >= p.getY() && p.getY()>=r.getBottomRight().getY(); 
 }
 
+string Rectangle::inspect() const{
+    string res="";
+    res = res+"[("+to_string(topleft.getX())+","+to_string(topleft.getY())+"),("+to_string(bottomright.getX())+","+to_string(bottomright.getY())+")]";
+//    res = to_string(mphash((unsigned char *)res.c_str(), res.length()));
+    return res;
+}
