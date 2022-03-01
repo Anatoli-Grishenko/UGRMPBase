@@ -14,8 +14,8 @@ Rectangle::Rectangle() { }
 Rectangle::Rectangle(int x, int y, int w, int h) {
     topleft.setX(x);
     topleft.setY(y);
-        bottomright.setX(x+w);
-        bottomright.setY(y-h);
+    bottomright.setX(x+w);
+    bottomright.setY(y-h);
     // setGeometry(x,y,w,h);
 }
 
