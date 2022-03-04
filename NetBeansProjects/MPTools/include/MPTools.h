@@ -23,3 +23,5 @@ void mpDisplayImage(std::string filename, std::string windowtitle);
 bool mpSavePGMImage(std::string filename, const unsigned char *buffer,int width, int height);
 
 #endif /* MPTOOLS_H */
+
+
