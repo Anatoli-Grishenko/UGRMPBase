@@ -42,9 +42,9 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 |Comienzo | Práctica | Herramientas | Metodología
 | -----| -----|-----| ----- |
 |Semana1 21/feb/2022 |[**Imaging0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging0.pdf) Acceso a memoria a nivel de bit| [**NetBeans 1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Entorno | Separar declaración de implementación de métodos. Métodos `const`.Parámetros por valor y por referencia. Paso de vectores a funciones y métodos |
-|Semana2	28/feb/2022 | |[**NetBeans 2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Compilación separada. Bibliotecas | Directivas de preprocesador. Test-Driven Development: testeo de aplicaciones y control de la calidad (QA) |
-|Semana3	7/mar/2022 | [**Imaging1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging1.pdf)  Tratamiento de imágenes digitales. El histograma|[**NetBeans 3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Depurador | Clases con vectores estáticos. Paso de vectores a funciones y métodos |
-|Semana4	14/mar/2022 | | | |
+|Semana2	28/feb/2022 | | | Directivas de preprocesador. Test-Driven Development: testeo de aplicaciones y control de la calidad (QA) |
+|Semana3	7/mar/2022 | [**Imaging1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging1.pdf)  Tratamiento de imágenes digitales. El histograma|[**NetBeans 2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Compilación separada. Bibliotecas| Clases con vectores estáticos. Paso de vectores a funciones y métodos |
+|Semana4	14/mar/2022 | |[**NetBeans 3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Depurador  | |
 |Semana5	21/mar/2022 |[**Imaging2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging2.pdf) Guardar imágenes en disco. Segmentación de imágenes por histograma| |Acceso a datos en disco. Lectura y escritura. Errores frecuentes |
 |Semana6	28/mar/2022 | | | |
 |Semana7	4/abr/2022 | [**Imaging3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging3.pdf) Copiar y pegar imágenes. Binarización de imágenes. | |Uso de parámetros desde la línea de comandos |
