@@ -42,10 +42,10 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 |Comienzo | Práctica <br> Entregable en Prado | Herramientas | Metodología
 | -----| -----|-----| ----- |
 |Semana1 20/feb/2023 || <ol><li>[**NetBeans 1**](#netbeans) <ul><li>Primeros pasos <li>HelloWorld <li>Directivas del precompilador</ul> <li> Gestión de la documentación con [Doxygen](#doxygen) </ol>| <ol><li>Caso práctico: Análisis del el proyecto [MP Geometry](#mpgeometry)<ul><li>Métodos `const`.<li>Parámetros por valor y por referencia. <li>Funciones friend<li>Validación simple de programas. Lectura de datos con redirección de la enrtada</ul><li>Caso práctico: Separación de la declaración e implementación de los métodos con el proyecto [MP Geometry](#mpgeometry)<li> Caso práctico: Compilación separada con el proyecto [MP Geometry](#mpgeometry)</ol>|
-|Semana2	27/feb/2023 | [**Language0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language0.pdf) Manejo de Bigramas | <ol><li>[**NetBeans 2**](#netbeans) <ul><li>Compilación separada: Bibliotecas</ul>|<ol><li> Clases con vectores estáticos. Paso de vectores a funciones y métodos <li> Uso de bibliotecas con el proyecto [MP Geometry](#mpgeometry) </ol>|
+|Semana2	27/feb/2023 | [**Language0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language0.pdf) Manejo de Bigramas | <ol><li>[**NetBeans 2**](#netbeans) <ul><li>Compilación separada: Bibliotecas</ul>|<ol><li> Clases con vectores estáticos. Paso de vectores a funciones y métodos <li> Uso de bibliotecas con el proyecto [MP Geometry](#mpgeometry) </ol>|
 |Semana3	6/mar/2023 | |<ol><li>[**NetBeans 3**](#netbeans) <ul><li>Depurador</ul>|  |
-|Semana4	13/mar/2023 |[**Language1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language1.pdf)  Tratamiento de imágenes digitales. |  | |
-|Semana5	20/mar/2023 |[**Language2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language2.pdf) Guardar imágenes en disco. Segmentación de imágenes por histograma| |Acceso a datos en disco. Lectura y escritura. Errores frecuentes |
+|Semana4	13/mar/2023 |[**Language1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language1.pdf)  Tratamiento de imágenes digitales. |  | |
+|Semana5	20/mar/2023 |[**Language2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language2.pdf) Guardar imágenes en disco. Segmentación de imágenes por histograma| |Acceso a datos en disco. Lectura y escritura. Errores frecuentes |
 |Semana6	27/mar/2023 | | | |
 |Semana7	3/abr/2023 | [**Language3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language3.pdf) Copiar y pegar imágenes. Binarización de imágenes. | |Uso de parámetros desde la línea de comandos |
 |Semana8	10/abr/2023 |**Semana Santa**| | | 
@@ -86,7 +86,7 @@ Es una metodología de desarrollo de proyectos de software que divide el proyect
   - Proyecto NetBeans [MPGeometry sep](https://github.com/Anatoli-Grishenko/UGRMPBase/tree/main/NetBeansProjects/MPGeometrySep)
 
   - Proyecto NetBeans [MPGeometry modularizado](https://github.com/Anatoli-Grishenko/UGRMPBase/tree/main/NetBeansProjects/MPGeometry_MOD)
-- Segunda parte.Uso de bibliotecas (librerías)
+- Segunda parte. Uso de bibliotecas (librerías)
   - [Videotutorial](https://drive.google.com/file/d/1m9pC3XWjz6BS9Srfu_4B_Bimw_jfw5xP/view?usp=sharing)
 
 ## Test-Driven Development
