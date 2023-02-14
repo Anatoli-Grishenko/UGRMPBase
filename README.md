@@ -4,7 +4,7 @@
 Para estar al día de las incidencias de la asignatura y tener contacto directo con los profesores puedes unirte al grupo de Telegram de algunas titulaciones
 - Doble Grado Informática y Matemáticas https://t.me/+B9wefu_74kQwZDRk
 
-# Preparandolo todo
+# <a name="preping"></a>Preparandolo todo
 -  [Videotutorial](https://drive.google.com/file/d/1VO7ib1QnUlEk1pHtn4F7D6QJwZZykgbo/view?usp=sharing) introducción a la asignatura.
 - Documentos de apoyo al videotutorial para la preparación del entorno de trabajo en el ordenador. En él se describe, a rasgos generales, cómo preparar el ordenador para la asignatura e incluye enlaces a otros videotutoriales, PDF, o Webs con descripciones más precisas de cada aspecto concreto. Este documento en PDF que aparece aquí son las transparencias del videotutorial y contiene los enlaces desde los que acceder a las herramientas y documentos que se citan en el vídeo. 
   - Las transparencias del vídeo con enlaces 
@@ -41,7 +41,7 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 
 |Comienzo | Práctica <br> Entregable en Prado | Herramientas | Metodología
 | -----| -----|-----| ----- |
-|Semana1 20/feb/2023 || <ul><li>[**NetBeans 1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Entorno <li> Gestión de la documentación con [Doxygen](#doxygen) </ul>| <ul><li>Separar declaración de implementación de métodos. <li>Métodos `const`.<li>Parámetros por valor y por referencia. <li>Paso de vectores a funciones y métodos. <li>Caso práctico: el proyecto [MP Geometry](#mpgeometry)</ul>|
+|Semana1 20/feb/2023 || <ul><li>[**NetBeans 1**](#netbeans) Primeros pasos, HelloWorld, Directivas del precompilador <li> Gestión de la documentación con [Doxygen](#doxygen) </ul>| <ul><li>Separar declaración de implementación de métodos. <li>Métodos `const`.<li>Parámetros por valor y por referencia. <li>Paso de vectores a funciones y métodos. <li>Caso práctico: el proyecto [MP Geometry](#mpgeometry)</ul>|
 |Semana2	27/feb/2023 | [**Language0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language0.pdf) Manejo de Bigramas | [**NetBeans 2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Compilación separada. Bibliotecas| <ul><li>Directivas de preprocesador <li> Clases con vectores estáticos. Paso de vectores a funciones y métodos </ul>|
 |Semana3	6/mar/2023 | |[**NetBeans 3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Depurador|  |
 |Semana4	13/mar/2023 |[**Language1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language1.pdf)  Tratamiento de imágenes digitales. |  | |
@@ -62,15 +62,15 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 
 En esta sección encontrarás manuales y videotutoriales sobre temas específicos de las prácticas que irán complementando al tema principal de la práctica.
 
-## El entorno de desarrollo NetBeans
+## <a name="netbeans"></a> El entorno de desarrollo NetBeans
 NetBeans es un entorno de desarrollo integrado libre y multiplataforma, creado principalmente para el lenguaje de programación Java, pero que ofrece soporte para otros muchos lenguajes de programación. Existe además un número importante de módulos para extenderlo. NetBeans es un producto libre y gratuito sin restricciones de uso. 
 - [Manual de referencia](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf)
-- [Primeros pasos](https://drive.google.com/file/d/1MFbCDJAiMJctlN_jPIfwlhWqPi0TGWiI/view?usp=sharing)
-- [Hello world!](https://drive.google.com/file/d/1qKz2fZ2vflcn6Kag8BcFCd9UKICFmn-1/view?usp=sharing)
-- [Directivas del precompilador](https://drive.google.com/file/d/1-nneQyafIa58DgtlcD3x2bCDXL93N1au/view?usp=sharing)
+- <a name="prmerospasos"></a>Primeros pasos <ul><li>[Videotutorial](https://drive.google.com/file/d/1MFbCDJAiMJctlN_jPIfwlhWqPi0TGWiI/view?usp=sharing)</li>
+   </ul>
+- <a name="helloworld"></a>Hello world!<ul><li>[Videotutorial](https://drive.google.com/drive/u/1/folders/1QOu1xYpdQd_FwKzcOo-HlXZ8dlmMcCSs)<li>Abrir [Proyecto Netbeans](https://github.com/Anatoli-Grishenko/UGRMPBase/tree/main/NetBeansProjects/HelloWorld)<li>Vistas Lógica (Projects) y Física (Files) <li> Editor<li>Estándar C++14<li>Compilar y enlazar<li> Carpetas build y dist<li> Ejecutar<ul><li>Pestaña de salida del programa<li>Desde Netbeans<li>Desde la terminal de ordenes</ul></ul>
+- Directivas del precompilador<ul><li>[Videotutorial](https://drive.google.com/file/d/1-nneQyafIa58DgtlcD3x2bCDXL93N1au/view?usp=sharing)</ul>
 
-
-## <a name="doxygen"></a>Documentación con Doxygen
+## <a name="doxygen"></a> Documentación con Doxygen
 
 Doxygen es un programa de apoyo a la documentación (comentarios) de proyectos de software que usa una sintaxis de anotación de los comentarios en el código que podríamos llamar, estándar, y común a otros lenguajes.
 
@@ -81,9 +81,9 @@ Doxygen es un programa de apoyo a la documentación (comentarios) de proyectos d
 Es una metodología de desarrollo de proyectos de software que divide el proyecto en unidades funcionales, llamados módulos o paquetes o bibliotecas (librerías), que se compilan por separado y se enlazan en un único fichero
 
 - Primera parte.De un proyecto monolítico a un proyecto modularizado.
-  - <a name="mpgeometry"></a>Proyecto NetBeans `MPGeometry` monolítico
+  - <a name="mpgeometry"></a>Proyecto NetBeans [MPGeometry monolítico](https://github.com/Anatoli-Grishenko/UGRMPBase/tree/main/NetBeansProjects/MPGeometry)
   - [Videotutorial]( https://drive.google.com/file/d/1-KiBquuuHJ5_zNeSLqWH88PqazuoTVmy/view?usp=sharin) modularización y compilación  separada
-  - Proyecto NetBeans MPGeometry modularizado `MPGeometry_MOD.zip`
+  - Proyecto NetBeans [MPGeometry modularizado](https://github.com/Anatoli-Grishenko/UGRMPBase/tree/main/NetBeansProjects/MPGeometry_MOD)
 - Segunda parte.Uso de bibliotecas (librerías)
   - [Videotutorial](https://drive.google.com/file/d/1m9pC3XWjz6BS9Srfu_4B_Bimw_jfw5xP/view?usp=sharing)
 
