@@ -44,16 +44,16 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 |Semana1 20/feb/2023 || <ol><li>[**NetBeans 1**](#netbeans) <ul><li>Primeros pasos <li>HelloWorld <li>Directivas del precompilador</ul> <li> Gestión de la documentación con [Doxygen](#doxygen) </ol>| <ol><li>Caso práctico: Análisis del el proyecto [MP Geometry](#mpgeometry)<ul><li>Métodos `const`.<li>Parámetros por valor y por referencia. <li>Funciones friend<li>Validación simple de programas. Lectura de datos con redirección de la enrtada</ul><li>Caso práctico: Separación de la declaración e implementación de los métodos con el proyecto [MP Geometry](#mpgeometry)<li> Caso práctico: Compilación separada con el proyecto [MP Geometry](#mpgeometry)</ol>|
 |Semana2	27/feb/2023 | [**Language0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language0.pdf) Manejo de Bigramas | <ol><li>[**NetBeans 2**](#netbeans) <ul><li>Compilación separada: Bibliotecas</ul>|<ol><li> Clases con vectores estáticos. Paso de vectores a funciones y métodos <li> Uso de bibliotecas con el proyecto [MP Geometry](#mpgeometry) </ol>|
 |Semana3	6/mar/2023 | |<ol><li>[**NetBeans 3**](#netbeans) <ul><li>Depurador</ul>|  |
-|Semana4	13/mar/2023 |[**Language1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language1.pdf)  Tratamiento de imágenes digitales. |  | |
-|Semana5	20/mar/2023 |[**Language2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language2.pdf) Guardar imágenes en disco. Segmentación de imágenes por histograma| |Acceso a datos en disco. Lectura y escritura. Errores frecuentes |
+|Semana4	13/mar/2023 |[**Language1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language1.pdf)  Bigramas con frecuencias asociadas |  | |
+|Semana5	20/mar/2023 |[**Language2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language2.pdf)  |||
 |Semana6	27/mar/2023 | | | |
-|Semana7	3/abr/2023 | [**Language3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language3.pdf) Copiar y pegar imágenes. Binarización de imágenes. | |Uso de parámetros desde la línea de comandos |
-|Semana8	10/abr/2023 |**Semana Santa**| | | 
-|Semana9	17/abr/2023 | | | |
-|Semana10	24/abr/2023 |[**Language4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language4.pdf) Uso de memoria dinámica I (arrays). Zoom in y Zoom out| [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
-|Semana11	1/may/2023 | | | |
+|Semana7	3/abr/2023 | **Semana Santa**| | | 
+|Semana8	10/abr/2023 | |
+|Semana9	17/abr/2023 |[**Language3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language3.pdf)  | | |
+|Semana10	24/abr/2023 || [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
+|Semana11	1/may/2023 | [**Language4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language4.pdf) <br>| | |
 |Semana12	8/may/2023 |**Examen de laboratorio** | | |
-|Semana13	15/may/2023 |[**Language5**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language5.pdf) Uso de memoria dinámica II (matrices bidimensionales). Esteganografía | | Matrices bidimensionales dinámicas. CStrings |
+|Semana13	15/may/2023 |[**Language5**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language5.pdf)  | | Matrices bidimensionales dinámicas. CStrings |
 |Semana14	22/may/2023 | | | |
 |Semana15	29/may/2023 | | | |
 |Semana16	5/jun/2023 | | | |
