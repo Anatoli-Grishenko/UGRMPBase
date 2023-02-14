@@ -51,12 +51,13 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 |Semana8	10/abr/2023 | |
 |Semana9	17/abr/2023 |[**Language3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language3.pdf)  | | |
 |Semana10	24/abr/2023 || [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
-|Semana11	1/may/2023 | [**Language4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language4.pdf) <br>| | |
-|Semana12	8/may/2023 |**Examen de laboratorio** | | |
+|Semana11	1/may/2023 | [**Language4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language4.pdf) | | |
+|Semana12	8/may/2023 |**Language4** <br>**Examen de laboratorio** | | |
 |Semana13	15/may/2023 |[**Language5**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language5.pdf)  | | Matrices bidimensionales dinámicas. CStrings |
 |Semana14	22/may/2023 | | | |
 |Semana15	29/may/2023 | | | |
 |Semana16	5/jun/2023 | | | |
+|||||
 
 # Técnicas, herramientas y metodologías de prácticas
 
