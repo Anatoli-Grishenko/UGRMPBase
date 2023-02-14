@@ -83,6 +83,8 @@ Es una metodología de desarrollo de proyectos de software que divide el proyect
 - Primera parte.De un proyecto monolítico a un proyecto modularizado.
   - <a name="mpgeometry"></a>Proyecto NetBeans [MPGeometry monolítico](https://github.com/Anatoli-Grishenko/UGRMPBase/tree/main/NetBeansProjects/MPGeometry)
   - [Videotutorial]( https://drive.google.com/file/d/1-KiBquuuHJ5_zNeSLqWH88PqazuoTVmy/view?usp=sharin) modularización y compilación  separada
+  - Proyecto NetBeans [MPGeometry sep](https://github.com/Anatoli-Grishenko/UGRMPBase/tree/main/NetBeansProjects/MPGeometrySep)
+
   - Proyecto NetBeans [MPGeometry modularizado](https://github.com/Anatoli-Grishenko/UGRMPBase/tree/main/NetBeansProjects/MPGeometry_MOD)
 - Segunda parte.Uso de bibliotecas (librerías)
   - [Videotutorial](https://drive.google.com/file/d/1m9pC3XWjz6BS9Srfu_4B_Bimw_jfw5xP/view?usp=sharing)
