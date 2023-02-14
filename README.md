@@ -43,17 +43,17 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 | -----| -----|-----| ----- |
 |Semana1 20/feb/2023 || <ol><li>[**NetBeans 1**](#netbeans) <ul><li>Primeros pasos <li>HelloWorld <li>Directivas del precompilador</ul> <li> Gestión de la documentación con [Doxygen](#doxygen) </ol>| <ol><li>Caso práctico: Análisis del el proyecto [MP Geometry](#mpgeometry)<ul><li>Métodos `const`.<li>Parámetros por valor y por referencia. <li>Funciones friend<li>Validación simple de programas. Lectura de datos con redirección de la enrtada</ul><li>Caso práctico: Separación de la declaración e implementación de los métodos con el proyecto [MP Geometry](#mpgeometry)<li> Caso práctico: Compilación separada con el proyecto [MP Geometry](#mpgeometry)</ol>|
 |Semana2	27/feb/2023 | [**Language0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language0.pdf) Manejo de Bigramas | <ol><li>[**NetBeans 2**](#netbeans) <ul><li>Compilación separada: Bibliotecas</ul>|<ol><li> Clases con vectores estáticos. Paso de vectores a funciones y métodos <li> Uso de bibliotecas con el proyecto [MP Geometry](#mpgeometry) </ol>|
-|Semana3	6/mar/2023 | |<ol><li>[**NetBeans 3**](#netbeans) <ul><li>Depurador</ul>|  |
-|Semana4	13/mar/2023 |[**Language1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language1.pdf)  Bigramas con frecuencias asociadas |  | |
-|Semana5	20/mar/2023 |[**Language2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language2.pdf)  |||
+|Semana3	6/mar/2023 | |<ol><li>[**NetBeans 3**](#netbeans) <ul><li>El [depurador](#depurador) de progrmas</ul>|  |
+|Semana4	13/mar/2023 |[**Language1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language1.pdf)  Bigramas con frecuencias asociadas |  |Acceso a [datos en disco](#ficheros). Lectura y escritura. Errores frecuentes |
+|Semana5	20/mar/2023 |[**Language2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language2.pdf)  ||Uso de [parámetros](#parametrosmain) desde la línea de comandos|
 |Semana6	27/mar/2023 | | | |
 |Semana7	3/abr/2023 | **Semana Santa**| | | 
 |Semana8	10/abr/2023 | |
-|Semana9	17/abr/2023 |[**Language3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language3.pdf)  | | |
-|Semana10	24/abr/2023 || [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
-|Semana11	1/may/2023 | [**Language4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language4.pdf) | | |
-|Semana12	8/may/2023 |**Language4** <br>**Examen de laboratorio** | | |
-|Semana13	15/may/2023 |[**Language5**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language5.pdf)  | | Matrices bidimensionales dinámicas. CStrings |
+|Semana9	17/abr/2023 |[**Language3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language3.pdf)  | [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
+|Semana10	24/abr/2023 |||||
+|Semana11	1/may/2023 | [**Language4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language4.pdf) | | Constructor de copia+Operador de asignación+Destructor|
+|Semana12	8/may/2023 |**Language4** <br>**Examen de laboratorio**<br>1 PUNTO | | |
+|Semana13	15/may/2023 |[**Language5**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language5.pdf) <br>2 PUNTOS | | Matrices bidimensionales dinámicas. CStrings |
 |Semana14	22/may/2023 | | | |
 |Semana15	29/may/2023 | | | |
 |Semana16	5/jun/2023 | | | |
@@ -68,7 +68,7 @@ NetBeans es un entorno de desarrollo integrado libre y multiplataforma, creado p
 - [Manual de referencia](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf)
 - <a name="prmerospasos"></a>Primeros pasos <ul><li>[Videotutorial](https://drive.google.com/file/d/1MFbCDJAiMJctlN_jPIfwlhWqPi0TGWiI/view?usp=sharing)</li>
    </ul>
-- <a name="helloworld"></a>Hello world!<ul><li>[Videotutorial](https://drive.google.com/drive/u/1/folders/1QOu1xYpdQd_FwKzcOo-HlXZ8dlmMcCSs)<li>Abrir [Proyecto Netbeans](https://github.com/Anatoli-Grishenko/UGRMPBase/tree/main/NetBeansProjects/HelloWorld)<li>Vistas Lógica (Projects) y Física (Files) <li> Editor<li>Estándar C++14<li>Compilar y enlazar<li> Carpetas build y dist<li> Ejecutar<ul><li>Pestaña de salida del programa<li>Desde Netbeans<li>Desde la terminal de ordenes</ul></ul>
+- <a name="helloworld"></a>Hello world!<ul><li>[Videotutorial](https://drive.google.com/drive/u/1/folders/1QOu1xYpdQd_FwKzcOo-HlXZ8dlmMcCSs)<li>Abrir [Proyecto Netbeans](https://github.com/Anatoli-Grishenko/UGRMPBase/tree/main/NetBeansProjects/HelloWorld)<li>Vistas Lógica (Projects) y Física (Files) <li> Editor<li>Estándar C++14<li>Compilar y enlazar<li> Carpetas build y dist<li> Ejecutar<ul><li>Pestaña de salida del programa<li>Desde Netbeans<li>Desde la terminal de ordenes<li>Ficheros de datos de validación</ul></ul>
 - Directivas del precompilador<ul><li>[Videotutorial](https://drive.google.com/file/d/1-nneQyafIa58DgtlcD3x2bCDXL93N1au/view?usp=sharing)</ul>
 
 ## <a name="doxygen"></a> Documentación con Doxygen
@@ -102,7 +102,7 @@ Es una metodología de desarrollo de proyectos software en la que primero se def
 - Proyecto `MyVector`  
 - [Manual completo TDD](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/TDDGTEST_V2.pdf)
 
-# Depuración de programas
+# <a name="depurador"></a>Depuración de programas
 El depurador es una herramienta que suele estar incorporada en los IDE (Integrated Development Environment) como NetBeans. Se utiliza para ejecutar el programa paso a paso e intentar encontrar errores en el código.
 
 - Manual sobre el [depurador de NetBeans](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Debugger.pdf)
@@ -120,7 +120,7 @@ Valgrind y Dr Memory son herramientas para la detección, sobre todo, de pérdid
   - Cargar en Netbeans
   - Ejecutar y seguir las instrucciones. Se puede volver a empezar de nuevo sin más que descomprimir de nuevo.
 
-# Manejo de ficheros de texto (muy básico)
+## <a name="ficheros"></a>Manejo de ficheros de texto (muy básico)
 Los ficheros de texto permiten almacenar datos que  pueden leer los programas de forma masiva para procesarlos. Este apartado es una (muy breve) introducción al manejo de ficheros que se verá en teoría.
 
 - Manual sobre el manejo (muy básico) de [ficheros de texto](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Ficheros.pdf)
@@ -128,7 +128,7 @@ Los ficheros de texto permiten almacenar datos que  pueden leer los programas de
 - Videotutorial 2. [Ficheros de salida](https://drive.google.com/file/d/1xllMQyf0sQP-cfrGSabFi5shA4bUzMZc/view?usp=sharing)
 - Videotutorial 3. Gestión de [errores en el manejo de ficheros](https://drive.google.com/file/d/19us64WCMXZyEd5um_MuZpLp5IqQU3nMV/view?usp=sharing)
 
-## Paso de argumentos a la función main()
+## <a name="parametrosmain"></a>Paso de parámetros a la función main() desde la línea de órdenes
 
 Esta es una técnica muy habitual para introducir datos en un programa desde la línea de comandos. Absolutamente imprescindible en programas de consola de Linux/Unix.
 
