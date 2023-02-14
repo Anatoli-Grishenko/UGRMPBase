@@ -41,22 +41,22 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 
 |Comienzo | Práctica | Herramientas | Metodología
 | -----| -----|-----| ----- |
-|Semana1 21/feb/2022 |[**Imaging0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging0.pdf) Acceso a memoria a nivel de bit| [**NetBeans 1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Entorno | Separar declaración de implementación de métodos. Métodos `const`.Parámetros por valor y por referencia. Paso de vectores a funciones y métodos |
-|Semana2	28/feb/2022 | | | Directivas de preprocesador. Test-Driven Development: testeo de aplicaciones y control de la calidad (QA) |
-|Semana3	7/mar/2022 | [**Imaging1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging1.pdf)  Tratamiento de imágenes digitales. El histograma|[**NetBeans 2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Compilación separada. Bibliotecas| Clases con vectores estáticos. Paso de vectores a funciones y métodos |
-|Semana4	14/mar/2022 | |[**NetBeans 3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Depurador  | |
-|Semana5	21/mar/2022 |[**Imaging2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging2.pdf) Guardar imágenes en disco. Segmentación de imágenes por histograma| |Acceso a datos en disco. Lectura y escritura. Errores frecuentes |
-|Semana6	28/mar/2022 | | | |
-|Semana7	4/abr/2022 | [**Imaging3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging3.pdf) Copiar y pegar imágenes. Binarización de imágenes. | |Uso de parámetros desde la línea de comandos |
-|Semana8	11/abr/2022 |**Semana Santa**| | | 
-|Semana9	18/abr/2022 | | | |
-|Semana10	25/abr/2022 |[**Imaging4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging4.pdf) Uso de memoria dinámica I (arrays). Zoom in y Zoom out| [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
-|Semana11	2/may/2022 | | | |
-|Semana12	9/may/2022 |**Examen de laboratorio** | | |
-|Semana13	16/may/2022 |[**Imaging5**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging5.pdf) Uso de memoria dinámica II (matrices bidimensionales). Esteganografía | | Matrices bidimensionales dinámicas. CStrings |
-|Semana14	23/may/2022 | | | |
-|Semana15	30/may/2022 | | | |
-|Semana16	6/jun/2022 | | | |
+|Semana1 20/feb/2023 |[**Imaging0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging0.pdf) Acceso a memoria a nivel de bit| [**NetBeans 1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Entorno | Separar declaración de implementación de métodos. Métodos `const`.Parámetros por valor y por referencia. Paso de vectores a funciones y métodos |
+|Semana2	27/feb/2023 | | | Directivas de preprocesador. Test-Driven Development: testeo de aplicaciones y control de la calidad (QA) |
+|Semana3	6/mar/2023 | [**Imaging1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging1.pdf)  Tratamiento de imágenes digitales. El histograma|[**NetBeans 2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Compilación separada. Bibliotecas| Clases con vectores estáticos. Paso de vectores a funciones y métodos |
+|Semana4	13/mar/2023 | |[**NetBeans 3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Depurador  | |
+|Semana5	20/mar/2023 |[**Imaging2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging2.pdf) Guardar imágenes en disco. Segmentación de imágenes por histograma| |Acceso a datos en disco. Lectura y escritura. Errores frecuentes |
+|Semana6	27/mar/2023 | | | |
+|Semana7	3/abr/2023 | [**Imaging3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging3.pdf) Copiar y pegar imágenes. Binarización de imágenes. | |Uso de parámetros desde la línea de comandos |
+|Semana8	10/abr/2023 |**Semana Santa**| | | 
+|Semana9	17/abr/2023 | | | |
+|Semana10	24/abr/2023 |[**Imaging4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging4.pdf) Uso de memoria dinámica I (arrays). Zoom in y Zoom out| [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
+|Semana11	1/may/2023 | | | |
+|Semana12	8/may/2023 |**Examen de laboratorio** | | |
+|Semana13	15/may/2023 |[**Imaging5**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging5.pdf) Uso de memoria dinámica II (matrices bidimensionales). Esteganografía | | Matrices bidimensionales dinámicas. CStrings |
+|Semana14	22/may/2023 | | | |
+|Semana15	29/may/2023 | | | |
+|Semana16	5/jun/2023 | | | |
 
 # Técnicas, herramientas y metodologías de prácticas
 
