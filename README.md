@@ -39,11 +39,11 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 1. [Vídeo](https://drive.google.com/file/d/17rp360AmxgOqLWHOID4K4uqDfK7uteHL/view?usp=sharing) sobre las prácticas, su evolución y su temporización
 1. [Vídeo](https://drive.google.com/file/d/1lTrPnTtKKIxiF_Rg1xlbm4ZsR5EFccCU/view?usp=sharing) de introducción a la esteganografía
 
-|Comienzo | Práctica | Herramientas | Metodología
+|Comienzo | Práctica <br> Entregable en Prado | Herramientas | Metodología
 | -----| -----|-----| ----- |
-|Semana1 20/feb/2023 || [**NetBeans 1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Entorno | Separar declaración de implementación de métodos. Métodos `const`.Parámetros por valor y por referencia. Paso de vectores a funciones y métodos. Caso práctico: el proyecto [MP Geometry](#mpgeometry)|
-|Semana2	27/feb/2023 | [**Language0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language0.pdf) Manejo de Bigramas | [**NetBeans 2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Compilación separada. Bibliotecas| Directivas de preprocesador. Test-Driven Development: testeo de aplicaciones y control de la calidad (QA) |
-|Semana3	6/mar/2023 | |[**NetBeans 3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Depurador| Clases con vectores estáticos. Paso de vectores a funciones y métodos |
+|Semana1 20/feb/2023 || <ul><li>[**NetBeans 1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Entorno <li> Gestión de la documentación con [Doxygen](#doxygen) </ul>| <ul><li>Separar declaración de implementación de métodos. <li>Métodos `const`.<li>Parámetros por valor y por referencia. <li>Paso de vectores a funciones y métodos. <li>Caso práctico: el proyecto [MP Geometry](#mpgeometry)</ul>|
+|Semana2	27/feb/2023 | [**Language0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language0.pdf) Manejo de Bigramas | [**NetBeans 2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Compilación separada. Bibliotecas| <ul><li>Directivas de preprocesador <li> Clases con vectores estáticos. Paso de vectores a funciones y métodos </ul>|
+|Semana3	6/mar/2023 | |[**NetBeans 3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Depurador|  |
 |Semana4	13/mar/2023 |[**Language1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language1.pdf)  Tratamiento de imágenes digitales. |  | |
 |Semana5	20/mar/2023 |[**Language2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language2.pdf) Guardar imágenes en disco. Segmentación de imágenes por histograma| |Acceso a datos en disco. Lectura y escritura. Errores frecuentes |
 |Semana6	27/mar/2023 | | | |
@@ -70,7 +70,7 @@ NetBeans es un entorno de desarrollo integrado libre y multiplataforma, creado p
 - [Directivas del precompilador](https://drive.google.com/file/d/1-nneQyafIa58DgtlcD3x2bCDXL93N1au/view?usp=sharing)
 
 
-## Documentación con Doxygen
+## <a name="doxygen"></a>Documentación con Doxygen
 
 Doxygen es un programa de apoyo a la documentación (comentarios) de proyectos de software que usa una sintaxis de anotación de los comentarios en el código que podríamos llamar, estándar, y común a otros lenguajes.
 
