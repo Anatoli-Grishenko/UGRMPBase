@@ -41,19 +41,19 @@ Para estar al día de las incidencias de la asignatura y tener contacto directo 
 
 |Comienzo | Práctica | Herramientas | Metodología
 | -----| -----|-----| ----- |
-|Semana1 20/feb/2023 |[**Imaging0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging0.pdf) Acceso a memoria a nivel de bit| [**NetBeans 1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Entorno | Separar declaración de implementación de métodos. Métodos `const`.Parámetros por valor y por referencia. Paso de vectores a funciones y métodos |
-|Semana2	27/feb/2023 | | | Directivas de preprocesador. Test-Driven Development: testeo de aplicaciones y control de la calidad (QA) |
-|Semana3	6/mar/2023 | [**Imaging1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging1.pdf)  Tratamiento de imágenes digitales. El histograma|[**NetBeans 2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Compilación separada. Bibliotecas| Clases con vectores estáticos. Paso de vectores a funciones y métodos |
-|Semana4	13/mar/2023 | |[**NetBeans 3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Depurador  | |
-|Semana5	20/mar/2023 |[**Imaging2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging2.pdf) Guardar imágenes en disco. Segmentación de imágenes por histograma| |Acceso a datos en disco. Lectura y escritura. Errores frecuentes |
+|Semana1 20/feb/2023 || [**NetBeans 1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Entorno | Separar declaración de implementación de métodos. Métodos `const`.Parámetros por valor y por referencia. Paso de vectores a funciones y métodos. Caso práctico: el proyecto [MP Geometry](#mpgeometry)|
+|Semana2	27/feb/2023 | [**Language0**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language0.pdf) Manejo de Bigramas | [**NetBeans 2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Compilación separada. Bibliotecas| Directivas de preprocesador. Test-Driven Development: testeo de aplicaciones y control de la calidad (QA) |
+|Semana3	6/mar/2023 | |[**NetBeans 3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/netbeans.pdf) Depurador| Clases con vectores estáticos. Paso de vectores a funciones y métodos |
+|Semana4	13/mar/2023 |[**Language1**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language1.pdf)  Tratamiento de imágenes digitales. |  | |
+|Semana5	20/mar/2023 |[**Language2**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language2.pdf) Guardar imágenes en disco. Segmentación de imágenes por histograma| |Acceso a datos en disco. Lectura y escritura. Errores frecuentes |
 |Semana6	27/mar/2023 | | | |
-|Semana7	3/abr/2023 | [**Imaging3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging3.pdf) Copiar y pegar imágenes. Binarización de imágenes. | |Uso de parámetros desde la línea de comandos |
+|Semana7	3/abr/2023 | [**Language3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language3.pdf) Copiar y pegar imágenes. Binarización de imágenes. | |Uso de parámetros desde la línea de comandos |
 |Semana8	10/abr/2023 |**Semana Santa**| | | 
 |Semana9	17/abr/2023 | | | |
-|Semana10	24/abr/2023 |[**Imaging4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging4.pdf) Uso de memoria dinámica I (arrays). Zoom in y Zoom out| [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
+|Semana10	24/abr/2023 |[**Language4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language4.pdf) Uso de memoria dinámica I (arrays). Zoom in y Zoom out| [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
 |Semana11	1/may/2023 | | | |
 |Semana12	8/may/2023 |**Examen de laboratorio** | | |
-|Semana13	15/may/2023 |[**Imaging5**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/imaging5.pdf) Uso de memoria dinámica II (matrices bidimensionales). Esteganografía | | Matrices bidimensionales dinámicas. CStrings |
+|Semana13	15/may/2023 |[**Language5**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language5.pdf) Uso de memoria dinámica II (matrices bidimensionales). Esteganografía | | Matrices bidimensionales dinámicas. CStrings |
 |Semana14	22/may/2023 | | | |
 |Semana15	29/may/2023 | | | |
 |Semana16	5/jun/2023 | | | |
@@ -81,7 +81,7 @@ Doxygen es un programa de apoyo a la documentación (comentarios) de proyectos d
 Es una metodología de desarrollo de proyectos de software que divide el proyecto en unidades funcionales, llamados módulos o paquetes o bibliotecas (librerías), que se compilan por separado y se enlazan en un único fichero
 
 - Primera parte.De un proyecto monolítico a un proyecto modularizado.
-  - Proyecto NetBeans `MPGeometry` monolítico
+  - <a name="mpgeometry"></a>Proyecto NetBeans `MPGeometry` monolítico
   - [Videotutorial]( https://drive.google.com/file/d/1-KiBquuuHJ5_zNeSLqWH88PqazuoTVmy/view?usp=sharin) modularización y compilación  separada
   - Proyecto NetBeans MPGeometry modularizado `MPGeometry_MOD.zip`
 - Segunda parte.Uso de bibliotecas (librerías)
