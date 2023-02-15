@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/9058636/218943684-ca9d21ba-4bfe-4cb0-9cd8-7ace0827c742.png)
+
 Hola,
 
 Este es el repositorio público de la aSignatura Metodología de la Programación para algunos de los grupos del Grado en Informática, Doble Grado en Informática y Matemáticas, y Doble Grado en Informática y ADE
