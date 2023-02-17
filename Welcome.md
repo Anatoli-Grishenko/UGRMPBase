@@ -6,7 +6,7 @@ Este es el repositorio público de la Asignatura Metodología de la Programació
 
 Antes de empezar las clases sería bueno que fueses preparando todo el material porque vamos a aprender muchas cosas interesantes y el tiempo vuela, así que empezaremos directamente desde el minuto 0.
 
-Tienes toda la información está en el [README](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/MP2122/README.md) pero aquí te apuntamos lo más importante ahora mismo
+Tienes toda la información está en el [README](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/README.md) pero aquí te apuntamos lo más importante ahora mismo
 
 1. Mira los vídeos de [introducción a la asignatura](https://drive.google.com/file/d/1VO7ib1QnUlEk1pHtn4F7D6QJwZZykgbo/view?usp=sharing)  y de [introducción a las prácticas](https://drive.google.com/file/d/1peiNfwzRKYvCFHCJlSH2licuhCIuEeqL/view?usp=share_link)
 1. Prepara tu ordenador para trabajar con la asignatura
