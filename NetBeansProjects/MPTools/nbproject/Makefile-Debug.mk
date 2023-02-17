@@ -37,7 +37,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/gtest2.o \
 	${OBJECTDIR}/src/MPTools.o \
-	${OBJECTDIR}/src/gtest1.o
+	${OBJECTDIR}/src/cval.o \
+	${OBJECTDIR}/src/gtest1.o \
+	${OBJECTDIR}/src/ustring.o
 
 
 # C Compiler Flags
@@ -76,10 +78,20 @@ ${OBJECTDIR}/src/MPTools.o: src/MPTools.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -Iinclude -Igoogletest-master/googletest/include -Igoogletest-master/googletest -Igoogletest-master/googletest/src -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/MPTools.o src/MPTools.cpp
 
+${OBJECTDIR}/src/cval.o: src/cval.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -Iinclude -Igoogletest-master/googletest/include -Igoogletest-master/googletest -Igoogletest-master/googletest/src -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/cval.o src/cval.cpp
+
 ${OBJECTDIR}/src/gtest1.o: src/gtest1.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -Iinclude -Igoogletest-master/googletest/include -Igoogletest-master/googletest -Igoogletest-master/googletest/src -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/gtest1.o src/gtest1.cpp
+
+${OBJECTDIR}/src/ustring.o: src/ustring.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -Iinclude -Igoogletest-master/googletest/include -Igoogletest-master/googletest -Igoogletest-master/googletest/src -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/ustring.o src/ustring.cpp
 
 # Subprojects
 .build-subprojects:

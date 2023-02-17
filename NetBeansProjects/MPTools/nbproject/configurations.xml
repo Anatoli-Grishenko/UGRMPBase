@@ -6,6 +6,8 @@
                    projectFiles="true">
       <itemPath>include/MPTests.h</itemPath>
       <itemPath>include/MPTools.h</itemPath>
+      <itemPath>include/cval.h</itemPath>
+      <itemPath>include/ustring.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,8 +17,10 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>src/MPTools.cpp</itemPath>
+      <itemPath>src/cval.cpp</itemPath>
       <itemPath>src/gtest1.cpp</itemPath>
       <itemPath>gtest2.cpp</itemPath>
+      <itemPath>src/ustring.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -57,9 +61,17 @@
       </item>
       <item path="include/MPTools.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/cval.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ustring.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="src/MPTools.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="src/cval.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="src/gtest1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ustring.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>
