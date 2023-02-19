@@ -50,9 +50,9 @@ Mira los vídeos de [introducción a la asignatura](https://drive.google.com/fil
 |Semana6	27/mar/2023 | | | |
 |Semana7	3/abr/2023 | **Semana Santa**| | | 
 |Semana8	10/abr/2023 | |
-|Semana9	17/abr/2023 |[**Language3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language3.pdf)  | [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
+|Semana9	17/abr/2023 |[**Language3**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language3.pdf)  | [**valgrind**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/valgrind.pdf) Detección de pérdidas de memoria| Uso de memoria dinámica en C++. Arrays dinámicos. Detección de pérdidas de memoria|
 |Semana10	24/abr/2023 |||||
-|Semana11	1/may/2023 | [**Language4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language4.pdf) | | Constructor de copia+Operador de asignación+Destructor|
+|Semana11	1/may/2023 | [**Language4**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/language4.pdf) | | Constructor de copia+Operador de asignación+Destructor|
 |Semana12	8/may/2023 |**Language4** <br>**Examen de laboratorio**<br>1 PUNTO | | |
 |Semana13	15/may/2023 |[**Language5**](https://github.com/Anatoli-Grishenko/UGRMPBase/blob/main/PDFs/Language5.pdf) <br>2 PUNTOS | | Matrices bidimensionales dinámicas. CStrings |
 |Semana14	22/may/2023 | | | |
