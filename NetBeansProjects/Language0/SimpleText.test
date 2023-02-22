@@ -1,0 +1,29 @@
+%%%CALL < data/SimpleText.txt
+%%%DESCRIPTION Simple test with a few, almost random, bigrams
+%%%OUTPUT
+11
+te
+ex
+xt
+to
+os
+im
+mp
+pl
+le
+te
+ex
+
+11
+TE
+ex
+xt
+to
+os
+im
+mp
+pl
+le
+TE
+ex
+

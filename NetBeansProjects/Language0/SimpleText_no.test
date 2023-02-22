@@ -1,0 +1,31 @@
+Textos;imple_Tex ab
+
+%%%CALL < tests/SimpleText_no.test
+%%%DESCRIPTION Looking for a missing bigram
+%%%OUTPUT
+11
+te
+ex
+xt
+to
+os
+im
+mp
+pl
+le
+te
+ex
+
+11
+te
+ex
+xt
+to
+os
+im
+mp
+pl
+le
+te
+ex
+
