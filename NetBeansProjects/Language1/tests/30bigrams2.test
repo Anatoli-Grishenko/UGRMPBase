@@ -1,0 +1,67 @@
+30
+ba 86
+be 655
+bi 116
+bo 216
+bu 243
+ca 365
+ce 805
+ci 55
+co 461
+cu 116
+da 115
+de 552
+di 322
+do 491
+du 75
+fa 117
+fe 177
+fi 190
+fo 410
+fu 122
+ga 227
+ge 339
+gi 96
+go 203
+gu 137
+ha 1217
+he 4058
+hi 870
+ho 615
+hu 62
+
+%%%CALL < tests/30bigrams2.test
+%%%VALGRIND
+%%%DESCRIPTION 30 random bigrams with random frequencies
+%%%OUTPUT
+30
+HE 4058
+HA 1217
+HI 870
+CE 805
+BE 655
+HO 615
+DE 552
+DO 491
+CO 461
+FO 410
+CA 365
+GE 339
+DI 322
+BU 243
+GA 227
+BO 216
+GO 203
+FI 190
+FE 177
+GU 137
+FU 122
+FA 117
+BI 116
+CU 116
+DA 115
+GI 96
+BA 86
+DU 75
+HU 62
+CI 55
