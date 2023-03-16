@@ -14,9 +14,21 @@
 
 
 /**
- * This program print the language identifier of the closet language 
- * for an input text file (<text.txt>) among the set of models provided in 
- * files <lang1.bgr>, <lang2.bgr>, ...
+ * Shows help about the use of this program in the given output stream
+ * @param ouputStream The output stream where the help will be shown (for example,
+ * cout, cerr, etc) 
+ */
+void showEnglishHelp(ostream& ouputStream) {
+    ouputStream << "Format:" << endl;
+    ouputStream << " classify <text.txt> <lang1.bgr> [<lang2.bgr> <lang3.bgr> ....]" << endl;
+    ouputStream << "          Obtains the identifier of the closest language to the input text file" << endl;
+    ouputStream << endl;
+}
+
+/**
+ * This program print the language identifier of the closest language 
+ * for an input text file (<text.txt>) among the set of provided models:
+ * <lang1.bgr>, <lang2.bgr>, ...
  * 
  * Running example:
  * > classify  <text.txt> <lang1.bgr> [<lang2.bgr> <lang3.bgr> ...]

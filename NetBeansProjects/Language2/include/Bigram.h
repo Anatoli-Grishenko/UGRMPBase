@@ -1,12 +1,12 @@
 /*
- * Metodología de la Programación: Language2
+ * MetodologÃ­a de la ProgramaciÃ³n: Language2
  * Curso 2022/2023
  */
 
 /** 
  * @file Bigram.h
  * @author Silvia Acid Carrillo <acid@decsai.ugr.es>
- * @author Andrés Cano Utrera <acu@decsai.ugr.es>
+ * @author AndrÃ©s Cano Utrera <acu@decsai.ugr.es>
  * @author Luis Castillo Vidal <L.Castillo@decsai.ugr.es>
  * 
  * Created on 2 February 2023, 11:00

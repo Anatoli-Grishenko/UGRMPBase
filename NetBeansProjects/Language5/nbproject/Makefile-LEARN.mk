@@ -23,7 +23,7 @@ AS=as
 # Macros
 CND_PLATFORM=GNU-Linux
 CND_DLIB_EXT=so
-CND_CONF=Release
+CND_CONF=LEARN
 CND_DISTDIR=dist
 CND_BUILDDIR=build
 
@@ -66,12 +66,12 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/language5: ${OBJECTFILES}
 ${OBJECTDIR}/src/BigramCounter.o: src/BigramCounter.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/BigramCounter.o src/BigramCounter.cpp
+	$(COMPILE.cc) -g -Iinclude -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/BigramCounter.o src/BigramCounter.cpp
 
 ${OBJECTDIR}/src/metamain.o: src/metamain.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/metamain.o src/metamain.cpp
+	$(COMPILE.cc) -g -Iinclude -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/metamain.o src/metamain.cpp
 
 # Subprojects
 .build-subprojects:

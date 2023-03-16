@@ -129,53 +129,5 @@ std::ostream operator<<(std::ostream os, Bigram bigram);
  */
 std::istream operator>>(std::istream is, Bigram bigram);
 
-/**
- * @brief Overloading of the operator == for Bigram class
- * @param bigram1 a Bigram object. Input parameter.
- * @param bigram2 a Bigram objectI. nput parameter.
- * @return true if the two bigrams contains the same text; false otherwise
- */
-bool operator==(Bigram bigram1, Bigram bigram2);
-
-/**
- * @brief Overloading of the operator < for Bigram class
- * @param bigram1 a Bigram object. Input parameter.
- * @param bigram2 a Bigram object. Input parameter.
- * @return true if bigram1 < bigram2; false otherwise
- */
-bool operator<(Bigram bigram1, Bigram bigram2);
-
-/**
- * @brief Overloading of the operator != for Bigram class
- * @param bigram1 a Bigram object
- * @param bigram2 a Bigram object
- * @return true if the two bigrams contains different text; false otherwise
- */
-bool operator!=(Bigram bigram1, Bigram bigram2);
-
-/**
- * @brief Overloading of the operator <= for Bigram class
- * @param bigram1 a Bigram object. Input parameter.
- * @param bigram2 a Bigram object. Input parameter.
- * @return true if bigram1 <= bigram2; false otherwise
- */
-bool operator<=(Bigram bigram1, Bigram bigram2);
-
-/**
- * @brief Overloading of the operator > for Bigram class
- * @param bigram1 a Bigram object. Input parameter.
- * @param bigram2 a Bigram object. Input parameter.
- * @return true if bigram1 > bigram2; false otherwise
- */
-bool operator>(Bigram bigram1, Bigram bigram2);
-
-/**
- * @brief Overloading of the operator >= for Bigram class
- * @param bigram1 a Bigram object. Input parameter.
- * @param bigram2 a Bigram object. Input parameter.
- * @return true if bigram1 >= bigram2; false otherwise
- */
-bool operator>=(Bigram bigram1, Bigram bigram2);
-
 #endif /* BIGRAM_H */
 

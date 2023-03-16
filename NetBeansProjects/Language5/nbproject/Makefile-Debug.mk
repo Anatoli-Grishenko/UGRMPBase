@@ -35,8 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/BigramCounter.o \
-	${OBJECTDIR}/metamain.o
+	${OBJECTDIR}/src/BigramCounter.o \
+	${OBJECTDIR}/src/metamain.o
 
 
 # C Compiler Flags
@@ -63,15 +63,15 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/language5: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/language5 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/BigramCounter.o: BigramCounter.cpp
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/src/BigramCounter.o: src/BigramCounter.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -Iinclude -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/BigramCounter.o BigramCounter.cpp
+	$(COMPILE.cc) -g -Iinclude -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/BigramCounter.o src/BigramCounter.cpp
 
-${OBJECTDIR}/metamain.o: metamain.cpp
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/src/metamain.o: src/metamain.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -Iinclude -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/metamain.o metamain.cpp
+	$(COMPILE.cc) -g -Iinclude -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/metamain.o src/metamain.cpp
 
 # Subprojects
 .build-subprojects:

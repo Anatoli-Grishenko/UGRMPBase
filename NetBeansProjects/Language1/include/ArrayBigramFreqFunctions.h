@@ -1,13 +1,13 @@
 
 /*
- * Metodología de la Programación: Language1
+ * MetodologÃ­a de la ProgramaciÃ³n: Language1
  * Curso 2022/2023
  */
 
 /** 
  * @file ArrayBigramFreqFunctions.h
  * @author Silvia Acid Carrillo <acid@decsai.ugr.es>
- * @author Andrés Cano Utrera <acu@decsai.ugr.es>
+ * @author AndrÃ©s Cano Utrera <acu@decsai.ugr.es>
  * @author Luis Castillo Vidal <L.Castillo@decsai.ugr.es>
  * 
  * Created on 7 February 2023, 19:45
@@ -20,6 +20,8 @@
 /**
  * @brief Reads the number of used elements and the elements of an array of
  * BigramFreq
+ * If @p nElements is greater than @p dim, then only @p dim elements are read
+ * If @p nElements is negative, then zero elements are read
  * @param array The array where the elements will be stored. Output parameter
  * @param dim The capacity of the array. Input parameter
  * @param nElements The number of elements used by the array. Output parameter
@@ -41,6 +43,8 @@ void printArrayBigramFreq(BigramFreq array[], int nElements);
  * @param nElements The number of elements used by the array. Input parameter
  * @param first the position of the first element to be swaped. Input parameter
  * @param second the position of the second element to be swaped. Input parameter
+ * @throw Throws a std::out_of_range exception if first or second are positions 
+ * out of the range of the given array
 */
 void swapElementsArrayBigramFreq(BigramFreq array[], int nElements, int first,
                 int second);

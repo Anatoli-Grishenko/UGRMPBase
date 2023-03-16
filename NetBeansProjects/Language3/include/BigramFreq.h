@@ -1,12 +1,12 @@
 /*
- * Metodología de la Programación: Language3
+ * MetodologÃ­a de la ProgramaciÃ³n: Language3
  * Curso 2022/2023
  */
 
 /* 
  * @file   BigramFreq.h
  * @author Silvia Acid Carrillo <acid@decsai.ugr.es>
- * @author Andrés Cano Utrera <acu@decsai.ugr.es>
+ * @author AndrÃ©s Cano Utrera <acu@decsai.ugr.es>
  * @author Luis Castillo Vidal <L.Castillo@decsai.ugr.es>
  *
  * Created on 29 January 2023, 11:00

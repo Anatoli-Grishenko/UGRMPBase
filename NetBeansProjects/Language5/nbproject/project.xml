@@ -21,6 +21,18 @@
                     <name>Release</name>
                     <type>1</type>
                 </confElem>
+                <confElem>
+                    <name>LEARN</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>JOIN</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>CLASSIFY</name>
+                    <type>1</type>
+                </confElem>
             </confList>
             <formatting>
                 <project-formatting-style>false</project-formatting-style>

@@ -14,14 +14,30 @@
 
 
 /**
+ * Shows help about the use of this program in the given output stream
+ * @param ouputStream The output stream where the help will be shown (for example,
+ * cout, cerr, etc) 
+ */
+void showEnglishHelp(ostream& ouputStream) {
+    ouputStream << "Format:" << endl;
+    ouputStream << "joinLanguages [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>] " << endl;
+    ouputStream << "       join the Languages files <file1.bgr> <file2.bgr> ... into <outputFile.bgr>" << endl;
+    ouputStream << endl;
+    ouputStream << "Parameters:" << endl;
+    ouputStream << "-t|-b: text mode or binary mode for the output file (-t by default)" << endl;
+    ouputStream << "-o <outputFile.bgr>: name of the output file (output.bgr by default)" << endl;
+    ouputStream << "<file*.bgr>: each one of the files to be joined" << endl;
+}
+
+/**
  * This program reads an undefined number of Language objects from the files
  * passed as parameters to main(). It obtains as result the union of all the 
  * input Language objects. The result is then sorted by decreasing order of 
  * frequency and alphabetical order of bigrams when there is any tie in 
- * frequencies. Finally the result Language is saved in an output file. The 
- * program must have at least an input file and an output file. 
+ * frequencies. Finally, the resulting Language is saved in an output file. The 
+ * program must have at least an output file. 
  * Running example:
- * >  joinLanguages -f <outputFile.bgr> <file1.bgr> [<file2.bgr> ... <filen.bgr>]
+ * >  joinLanguages [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>]
  * @param argc The number of command line parameters
  * @param argv The vector of command line parameters (cstrings)
  * @return 0 If there is no error; a value > 0 if error

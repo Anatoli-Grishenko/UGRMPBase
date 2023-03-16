@@ -5,7 +5,7 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>include/Bigram.h</itemPath>
-      <itemPath>BigramCounter.h</itemPath>
+      <itemPath>include/BigramCounter.h</itemPath>
       <itemPath>include/BigramFreq.h</itemPath>
       <itemPath>include/Language.h</itemPath>
     </logicalFolder>
@@ -16,8 +16,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>BigramCounter.cpp</itemPath>
-      <itemPath>metamain.cpp</itemPath>
+      <itemPath>src/BigramCounter.cpp</itemPath>
+      <itemPath>src/metamain.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -50,17 +50,17 @@
           </incDir>
         </ccTool>
       </compileType>
-      <item path="BigramCounter.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="BigramCounter.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="include/Bigram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BigramCounter.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/BigramFreq.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/Language.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="metamain.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/BigramCounter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/metamain.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -84,17 +84,98 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="BigramCounter.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="BigramCounter.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="include/Bigram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BigramCounter.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/BigramFreq.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/Language.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="metamain.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/BigramCounter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/metamain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="LEARN" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+      </compileType>
+      <item path="include/Bigram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BigramCounter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BigramFreq.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Language.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/BigramCounter.cpp" ex="false" tool="1" flavor2="11">
+      </item>
+      <item path="src/metamain.cpp" ex="false" tool="1" flavor2="11">
+      </item>
+    </conf>
+    <conf name="JOIN" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+      </compileType>
+      <item path="include/Bigram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BigramCounter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BigramFreq.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Language.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/BigramCounter.cpp" ex="false" tool="1" flavor2="11">
+      </item>
+      <item path="src/metamain.cpp" ex="false" tool="1" flavor2="11">
+      </item>
+    </conf>
+    <conf name="CLASSIFY" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+      </compileType>
+      <item path="include/Bigram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BigramCounter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BigramFreq.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Language.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/BigramCounter.cpp" ex="false" tool="1" flavor2="11">
+      </item>
+      <item path="src/metamain.cpp" ex="false" tool="1" flavor2="11">
       </item>
     </conf>
   </confs>

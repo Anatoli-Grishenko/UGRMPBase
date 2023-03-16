@@ -119,10 +119,12 @@ public:
      * @brief Reads the given text file and calculates the frequencies of each 
      * bigram in that file.
      * Modifier method
+     * @throw std::ios_base::failure Throws a std::ios_base::failure exception
+     * if the given file cannot be opened
      * @param fileName The name of the file to process. Input parameter
      * @return true if the file could be read; false otherwise
      */
-    bool calculateFrequencies(char* fileName);
+    void calculateFrequencies(char* fileName);
 
     /**
      * @brief Builds a Language object from this BigramCounter object. The 
@@ -142,38 +144,6 @@ private:
      * characters are included in this string 
      */
     std::string _validCharacters;
-
-    /**
-     * @brief Sets the frecuency of each bigram to 0, that is fill with 0 the 
-     * matrix of frecuencies
-     * Modifier method
-     */
-    void initFrecuencies();
-
-    /**
-     * @brief Allocates dynamic memory for the matrix of frecuencies
-     * Modifier method
-     * @param size The number of rows and columns for the dynamic matrix of
-     * frecuencies. Input parameter
-     */
-    void allocate(int size);
-
-    /**
-     * @brief Deallocates the dynamic memory used by the matrix of frecuencies.
-     * Modifier method
-     */
-    void deallocate();
-
-    /**
-     * @brief Sets the set of characters that are considered as part of a word with the
-     * one of the given object and copies the frecuencies in the matrix of the 
-     * given object into the matrix of frecuencies of this object.
-     * Modifier method
-     * @pre This object should have a matrix of frecuencies with the same size
-     * as the one of the given object
-     * @param otherLanguage The source bigram counter. Input parameter
-     */
-    void copy(BigramCounter other);
 
     /**
      * @brief Overloading of the () operator to access to the element at a 

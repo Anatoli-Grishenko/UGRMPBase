@@ -1,12 +1,12 @@
 /*
- * Metodologí­a de la Programación: Language4
+ * MetodologÃ­a de la ProgramaciÃ³n: Language4
  * Curso 2022/2023
  */
 
 /** 
  * @file Language.h
  * @author Silvia Acid Carrillo <acid@decsai.ugr.es>
- * @author Andrés Cano Utrera <acu@decsai.ugr.es>
+ * @author AndrÃ©s Cano Utrera <acu@decsai.ugr.es>
  * @author Luis Castillo Vidal <L.Castillo@decsai.ugr.es>
  * 
  * Created on 12 February 2023, 10:40
@@ -221,58 +221,6 @@ private:
     BigramFreq* _vectorBigramFreq; ///< Dynamic array of BigramFreq
     int _size; ///< Number of elements in _vectorBigramFreq
     static const std::string MAGIC_STRING_T; ///< A const string with the magic string for text files
-
-    /**
-     * @brief Sets the number of BigramFreq objects. 
-     * Modifier method
-     * @param size The size to set in this object. Input parameter
-     */
-    void setSize(int size);
-    
-    /**
-     * @brief Allocates new memory for the vector of BigramFreq with a size 
-     * equals to @p nElements. 
-     * Modifier method.
-     * @param nElements The number of elements to allocate in the vector of 
-     * BigramFreq. Input parameter
-     */
-    void allocate(int nElements);
-    
-    /** 
-     * @brief 
-     * Frees the memory allocated in this object and then allocates new memory
-     * for a vector of BigramFreq of size equals to @p newSize. 
-     * If the new capacity is less than before, then the last elements of the 
-     * old vector are lost.
-     * If the new capacity is greater than
-     * before, then the old elements of the old vector are placed at the 
-     * begining of the new vector, and the last elements in the new vector, are 
-     * filled with empty object (objects created with the default constructor 
-     * of  BigramFreq).
-     * Modifier method
-     * @param newSize The new capacity for the vector of BigramFreq. 
-     * Input parameter
-     */
-    void reallocate(int newSize);
-
-    /**
-     * Frees the memory allocated in this object. 
-     * Modifier method
-     * @pre The pointer _vectorBigramFreq should point to an array in dynamic
-     * memory, that was previously allocated
-     */
-    void deallocate();
-
-    /**
-     * Copies the elements in the dynamic array of BigramFreq of the given object
-     * (otherLanguage) into this object. Also, the identifier is copied.
-     * Modifier method
-     * @pre The dynamic array of BigramFreq in this object must be at least of 
-     * the same size as the one in the given object otherLanguage; otherwise
-     * access to invalid memory positions could be done
-     * @param otherLanguage. Input parameter
-     */
-    void copy(Language otherLanguage);
 };
 
 #endif /* LANGUAGE_H */
