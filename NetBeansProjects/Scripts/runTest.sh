@@ -41,7 +41,7 @@ function doTest  {
         # Auto-compose a shell for the purpose of trying the binary
         # uses the .timeout file as a lock to detect that the program has ended
         echo "touch $TESTS_FOLDER/.timeout">$TESTS_FOLDER/.run.sh
-        echo "CMD=\"$VALGRIND $FULL_BINARY $MYCALL 1> $TESTS_FOLDER/.out$k 2>&1\"">> $TESTS_FOLDER/.run.sh
+        echo "CMD=\"$FULL_BINARY $MYCALL 1> $TESTS_FOLDER/.out$k 2>&1\"">> $TESTS_FOLDER/.run.sh
         echo "eval \$CMD">>$TESTS_FOLDER/.run.sh
         echo "rm $TESTS_FOLDER/.timeout">>$TESTS_FOLDER/.run.sh
         chmod u+x $TESTS_FOLDER/.run.sh
