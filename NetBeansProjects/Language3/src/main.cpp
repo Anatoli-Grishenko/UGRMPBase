@@ -14,6 +14,16 @@
 
 
 /**
+ * Shows help about the use of this program in the given output stream
+ * @param ouputStream The output stream where the help will be shown (for example,
+ * cout, cerr, etc) 
+ */
+void showEnglishHelp(ostream& ouputStream) {
+    ouputStream << "Error, run with the following parameters:" << endl;
+    ouputStream << "language3 [-t min|max] <file1.bgr> <file2.bgr> [ ... <filen.bgr>]" << endl;
+}
+
+/**
  * This program reads an undefined number of Language objects from the set of 
  * files passed as parameters to main(). All the Languages object, except the 
  * first one, must be stored in a dynamic array of Language objects. Then, 
