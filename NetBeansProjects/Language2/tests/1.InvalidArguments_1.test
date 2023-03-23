@@ -1,0 +1,5 @@
+%%%CALL
+%%%DESCRIPTION Run without arguments
+%%%OUTPUT
+Error, run with the following parameters:
+language2 <file1.bgr> [<file2.bgr> ... <filen.bgr>] <outputFile.bgr> 
