@@ -1,18 +1,18 @@
 # OUTCOME OF TESTS FOR PROJECT language1_template
 
-As of Mar 22 2023 17:39:56
+As of Mar 23 2023 05:49:45
 
 | ID | NAME | RESULT | DESCRIPTION | 
 | :--- | :--- | :--- | :--- |
-| 1 | T01_Basics.Bigram_Bigram_ss_1 |  PASSED |```Bigram ab("ab");ab.inspectT()```|
+| 1 | T01_Basics.Bigram_Bigram_ss_1 |  PASSED |```Bigram ab("ab");ab.toString()```|
 | | | | should give ```"ab"```|
-| 2 | T01_Basics.Bigram_Bigram_ss_2 |  PASSED |```Bigram gg("__");gg.inspectT();```|
+| 2 | T01_Basics.Bigram_Bigram_ss_2 |  PASSED |```Bigram gg("__");gg.toString();```|
 | | | | should give ```"__"```|
-| 3 | T01_Basics.Bigram_Bigram_sss_ |  PASSED |```Bigram b("abcd");b.inspectT();;```|
+| 3 | T01_Basics.Bigram_Bigram_sss_ |  PASSED |```Bigram b("abcd");b.toString();;```|
 | | | | should give ```"__"```|
-| 4 | T01_Basics.Bigram_Bigram___ |  PASSED |```Bigram b("");b.inspectT();;```|
+| 4 | T01_Basics.Bigram_Bigram___ |  PASSED |```Bigram b("");b.toString();;```|
 | | | | should give ```"__"```|
-| 5 | T01_Basics.Bigram_Bigram_c_c_ |  PASSED |```Bigram b('a', 'a');b.inspectT();```|
+| 5 | T01_Basics.Bigram_Bigram_c_c_ |  PASSED |```Bigram b('a', 'a');b.toString();```|
 | | | | should give ```"aa"```|
 | 6 | T01_Basics.Bigram_at_i1 |  PASSED |```Bigram b("ab");b.at(0);```|
 | | | | should give ```"a"```|
@@ -20,7 +20,7 @@ As of Mar 22 2023 17:39:56
 | | | | should give ```"b"```|
 | 8 | T01_Basics.Bigram_getText |  PASSED |```Bigram b("ab");b.getText();```|
 | | | | should give ```"ab"```|
-| 9 | T01_Basics.BigramFreq_BigramFreq_ |  PASSED |```BigramFreq bf;bf.inspectT()```|
+| 9 | T01_Basics.BigramFreq_BigramFreq_ |  PASSED |```BigramFreq bf;bf.toString()```|
 | | | | should give ```"__ 0"```|
 | 10 | T01_Basics.BigramFreq_toString_ |  PASSED |```BigramFreq bf;bf.toString()```|
 | | | | should give ```"__ 0"```|
@@ -30,10 +30,9 @@ As of Mar 22 2023 17:39:56
 | | | | should give ```"__"```|
 | 13 | T02_Intermediate.Bigram_at_i3 |  PASSED |```Bigram b("ab");b.at(20);```|
 | | | | should THROW an exception std::out_of_range|
-|
-| 14 | T02_Intermediate.Bigram_at_i_var |  PASSED |```Bigram b("ab"); b.at(0) = 'd';b.inspectT();```|
+| 14 | T02_Intermediate.Bigram_at_i_var |  PASSED |```Bigram b("ab"); b.at(0) = 'd';b.toString();```|
 | | | | should give ```"db"```|
-| 15 | T02_Intermediate.Bigram_at_i_var2 |  PASSED |```Bigram b("ab"); b.at(1) = 'd';b.inspectT();;```|
+| 15 | T02_Intermediate.Bigram_at_i_var2 |  PASSED |```Bigram b("ab"); b.at(1) = 'd';b.toString();;```|
 | | | | should give ```"ad"```|
 | 16 | T02_Intermediate.isValidChar_c |  PASSED |```char c='a';isValidCharacter(c,validCharacters);```|
 | | | | should give ```true```|
@@ -45,7 +44,6 @@ As of Mar 22 2023 17:39:56
 | | | | should give ```10```|
 | 20 | T02_Intermediate.BigramFreq_setFrequency_exception |  PASSED |```BigramFreq bf;bf.setFrequency(-10);```|
 | | | | should THROW an exception std::out_of_range|
-|
 | 21| T03_Advanced.Integration_SimpleTest-valgrind | PASSED | NO LEAKS |
 | 21 | T03_Advanced.Integration_SimpleTest | PASSED | 11 Random bigrams with random frequencies|
 | 22 | T03_Advanced.Integration_30Bigrams | PASSED | Process 30 random bigrams with random frequencies|
