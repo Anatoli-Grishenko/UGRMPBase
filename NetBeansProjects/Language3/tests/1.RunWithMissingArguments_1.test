@@ -1,4 +1,5 @@
 %%%CALL
+%%%VALGRIND
 %%%DESCRIPTION Run with missing arguments
 %%%OUTPUT
 Error, run with the following parameters:

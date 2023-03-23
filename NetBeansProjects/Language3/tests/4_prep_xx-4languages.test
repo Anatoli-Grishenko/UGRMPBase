@@ -1,4 +1,5 @@
 %%%CALL -t max ../Books/prep_xx.bgr ../Books/prep_en.bgr ../Books/prep_fr.bgr ../Books/prep_sp.bgr ../Books/prep_ge.bgr
+%%%VALGRIND
 %%%DESCRIPTION Max distance from prep_xx.bgr  to prep_en.bgr, prep_fr.bgr, prep_sp.bgr and prep_ge.bgr
 %%%OUTPUT
 Distance to ../Books/prep_en.bgr: 0.52

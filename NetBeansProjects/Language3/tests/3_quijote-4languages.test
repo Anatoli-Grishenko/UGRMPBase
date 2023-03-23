@@ -1,4 +1,5 @@
 %%%CALL ../Books/quijote.bgr ../Books/fortunata.bgr ../Books/aliceWonder.bgr ../Books/lesMiserables.bgr ../Books/BodasdeSangre_FedericoGarciaLorca.bgr
+%%%VALGRIND
 %%%DESCRIPTION Distance from quijote.bgr to fortunata.bgr aliceWonder.bgr lesMiserables.bgr  BodasdeSangre_FedericoGarciaLorca.bgr
 %%%OUTPUT
 Distance to ../Books/fortunata.bgr: 0.0554647

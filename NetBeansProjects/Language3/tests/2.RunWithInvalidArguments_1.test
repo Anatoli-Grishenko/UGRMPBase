@@ -1,4 +1,5 @@
 %%%CALL -f data/30bigrams.bgr data/30bigrams.bgr
+%%%VALGRIND
 %%%DESCRIPTION Run with invalid arguments (-f)
 %%%OUTPUT
 Error, run with the following parameters:
