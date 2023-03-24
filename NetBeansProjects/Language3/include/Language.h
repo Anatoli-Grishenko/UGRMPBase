@@ -106,7 +106,8 @@ public:
      * \f$rank_{bigram_i(L_1)}^{L_2}\f$, if the bigram \f$bigram_i(L_1)\f$ 
      * does not appears in the Language \f$L_2\f$ we consider that the rank
      * is equals to the size of Language \f$L_1\f$. 
-     * @param otherLanguage A Language object
+     * Query method
+     * @param otherLanguage A Language object. Input parameter
      * @pre The list of bigrams of this and otherLanguage should be ordered in 
      * decreasing order of frequency. This is not checked in this method.
      * @return The distance between this Language object and the given 
