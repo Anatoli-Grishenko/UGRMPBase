@@ -15,6 +15,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>src/Language.cpp</itemPath>
       <itemPath>src/main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -51,6 +52,8 @@
       </item>
       <item path="include/Language.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="src/Language.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -80,6 +83,8 @@
       <item path="include/BigramFreq.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/Language.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Language.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
