@@ -14,12 +14,12 @@
 
 /**
  * Shows help about the use of this program in the given output stream
- * @param ouputStream The output stream where the help will be shown (for example,
+ * @param outputStream The output stream where the help will be shown (for example,
  * cout, cerr, etc) 
  */
-void showEnglishHelp(ostream& ouputStream) {
-    ouputStream << "Error, run with the following parameters:" << endl;
-    ouputStream << "language4 [-t min|max] <file1.bgr> <file2.bgr> [ ... <filen.bgr>]" << endl;
+void showEnglishHelp(ostream& outputStream) {
+    outputStream << "Error, run with the following parameters:" << endl;
+    outputStream << "language4 [-t min|max] <file1.bgr> <file2.bgr> [ ... <filen.bgr>]" << endl;
 }
 
 /**

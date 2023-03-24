@@ -210,7 +210,9 @@ public:
     
     /**
      * @brief Appends to this Language object, the list of pairs  
-     * bigram-frequency contained in @p language. 
+     * bigram-frequency contained in the Language @p language. This
+     * method uses the method append(const BigramFreq& bigramFreq) to
+     * append the pairs bigram-frequency contained in the Language @p language
      * Modifier method
      * @param language A Language object. Input parameter
      */
