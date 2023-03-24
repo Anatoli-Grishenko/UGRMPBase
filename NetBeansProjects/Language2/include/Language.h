@@ -159,16 +159,21 @@ public:
      * with the one of the given BigramFreq object. If not, a copy of the 
      * given BigramFreq object is appended to the end of the list of
      * BigramFreq objects in this Language.
-     * Modifier method
-     * @param bigramFreq The BigramFreq to append to this object. Input parameter
+     * @thow std::out_of_range Throws a std::out_of_range exception in case
+     * that a new element must be appended to the end of the array and the
+     * number of elements in the array of BigramFreq is equals to the capacity
+     * of that array. In that case, the array is full, and no more elements
+     * can be appended to the array.
+     * @param bigramFreq The BigramFreq to append to this object
      */
     void append(BigramFreq bigramFreq);
     
     /**
      * @brief Appends to this Language object, the list of pairs  
-     * bigram-frequency contained in @p language. 
-     * Modifier method
-     * @param language A Language object. Input parameter
+     * bigram-frequency objects contained in the Language @p language. This
+     * method uses the method append(const BigramFreq& bigramFreq) to
+     * append the pairs bigram-frequency contained in the Language @p language
+     * @param language A Language object 
      */
     void join(Language language);
     
