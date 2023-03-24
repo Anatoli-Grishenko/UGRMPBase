@@ -211,12 +211,12 @@ public:
     /**
      * @brief Appends to this Language object, the list of pairs  
      * bigram-frequency contained in the Language @p language. This
-     * method uses the method append(const BigramFreq& bigramFreq) to
+     * method uses the method append(BigramFreq bigramFreq) to
      * append the pairs bigram-frequency contained in the Language @p language
      * Modifier method
      * @param language A Language object. Input parameter
      */
-    void join(const Language& language);
+    void join(Language language);
       
 private:
     std::string _languageId; ///< language identifier
