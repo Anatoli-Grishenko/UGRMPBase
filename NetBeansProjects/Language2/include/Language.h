@@ -164,7 +164,8 @@ public:
      * number of elements in the array of BigramFreq is equals to the capacity
      * of that array. In that case, the array is full, and no more elements
      * can be appended to the array.
-     * @param bigramFreq The BigramFreq to append to this object
+     * Modifier method
+     * @param bigramFreq The BigramFreq to append to this object. Input parameter
      */
     void append(BigramFreq bigramFreq);
     
@@ -173,7 +174,8 @@ public:
      * bigram-frequency objects contained in the Language @p language. This
      * method uses the method append(const BigramFreq& bigramFreq) to
      * append the pairs bigram-frequency contained in the Language @p language
-     * @param language A Language object 
+     * Modifier method
+     * @param language A Language object. Input parameter
      */
     void join(Language language);
     
