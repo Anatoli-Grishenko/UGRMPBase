@@ -17,6 +17,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>src/BigramCounter.cpp</itemPath>
+      <itemPath>src/Language.cpp</itemPath>
       <itemPath>src/metamain.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -57,6 +58,8 @@
       </item>
       <item path="src/BigramCounter.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="src/Language.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="src/metamain.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -91,6 +94,8 @@
       </item>
       <item path="src/BigramCounter.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="src/Language.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="src/metamain.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -117,6 +122,8 @@
       <item path="include/Language.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/BigramCounter.cpp" ex="false" tool="1" flavor2="11">
+      </item>
+      <item path="src/Language.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/metamain.cpp" ex="false" tool="1" flavor2="11">
       </item>
@@ -145,6 +152,8 @@
       </item>
       <item path="src/BigramCounter.cpp" ex="false" tool="1" flavor2="11">
       </item>
+      <item path="src/Language.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="src/metamain.cpp" ex="false" tool="1" flavor2="11">
       </item>
     </conf>
@@ -171,6 +180,8 @@
       <item path="include/Language.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/BigramCounter.cpp" ex="false" tool="1" flavor2="11">
+      </item>
+      <item path="src/Language.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/metamain.cpp" ex="false" tool="1" flavor2="11">
       </item>

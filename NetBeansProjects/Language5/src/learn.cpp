@@ -14,19 +14,19 @@
 
 /**
  * Shows help about the use of this program in the given output stream
- * @param ouputStream The output stream where the help will be shown (for example,
+ * @param outputStream The output stream where the help will be shown (for example,
  * cout, cerr, etc) 
  */
-void showEnglishHelp(ostream& ouputStream) {
-    ouputStream << "Format:" << endl;
-    ouputStream << "learn [-t|-b] [-l languageId] [-o outputFilename] <text1.txt> [<text2.txt> <text3.txt> .... ]" << endl;
-    ouputStream << "           learn the model for the language languageId from the text files <text1.txt> <text2.txt> <text3.txt> ..." << endl;
-    ouputStream << endl;
-    ouputStream << "Parameters:" << endl;
-    ouputStream << "-t|-b: text mode or binary mode for the output file (-t by default)" << endl;
-    ouputStream << "-l languageId: language identifier (unknown by default)" << endl;
-    ouputStream << "-o outputFilename: name of the output file (output.bgr by default)" << endl;
-    ouputStream << "<text1.txt> <text2.txt> <text3.txt> ....: names of the input files (at least one is mandatory)" << endl;
+void showEnglishHelp(ostream& outputStream) {
+    outputStream << "Format:" << endl;
+    outputStream << "learn [-t|-b] [-l languageId] [-o outputFilename] <text1.txt> [<text2.txt> <text3.txt> .... ]" << endl;
+    outputStream << "           learn the model for the language languageId from the text files <text1.txt> <text2.txt> <text3.txt> ..." << endl;
+    outputStream << endl;
+    outputStream << "Parameters:" << endl;
+    outputStream << "-t|-b: text mode or binary mode for the output file (-t by default)" << endl;
+    outputStream << "-l languageId: language identifier (unknown by default)" << endl;
+    outputStream << "-o outputFilename: name of the output file (output.bgr by default)" << endl;
+    outputStream << "<text1.txt> <text2.txt> <text3.txt> ....: names of the input files (at least one is mandatory)" << endl;
 }
 
 /**

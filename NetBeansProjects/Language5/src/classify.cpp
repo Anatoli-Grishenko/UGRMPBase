@@ -15,14 +15,14 @@
 
 /**
  * Shows help about the use of this program in the given output stream
- * @param ouputStream The output stream where the help will be shown (for example,
+ * @param outputStream The output stream where the help will be shown (for example,
  * cout, cerr, etc) 
  */
-void showEnglishHelp(ostream& ouputStream) {
-    ouputStream << "Format:" << endl;
-    ouputStream << " classify <text.txt> <lang1.bgr> [<lang2.bgr> <lang3.bgr> ....]" << endl;
-    ouputStream << "          Obtains the identifier of the closest language to the input text file" << endl;
-    ouputStream << endl;
+void showEnglishHelp(ostream& outputStream) {
+    outputStream << "Format:" << endl;
+    outputStream << " classify <text.txt> <lang1.bgr> [<lang2.bgr> <lang3.bgr> ....]" << endl;
+    outputStream << "          Obtains the identifier of the closest language to the input text file" << endl;
+    outputStream << endl;
 }
 
 /**

@@ -15,18 +15,18 @@
 
 /**
  * Shows help about the use of this program in the given output stream
- * @param ouputStream The output stream where the help will be shown (for example,
+ * @param outputStream The output stream where the help will be shown (for example,
  * cout, cerr, etc) 
  */
-void showEnglishHelp(ostream& ouputStream) {
-    ouputStream << "Format:" << endl;
-    ouputStream << "joinLanguages [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>] " << endl;
-    ouputStream << "       join the Languages files <file1.bgr> <file2.bgr> ... into <outputFile.bgr>" << endl;
-    ouputStream << endl;
-    ouputStream << "Parameters:" << endl;
-    ouputStream << "-t|-b: text mode or binary mode for the output file (-t by default)" << endl;
-    ouputStream << "-o <outputFile.bgr>: name of the output file (output.bgr by default)" << endl;
-    ouputStream << "<file*.bgr>: each one of the files to be joined" << endl;
+void showEnglishHelp(ostream& outputStream) {
+    outputStream << "Format:" << endl;
+    outputStream << "joinLanguages [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>] " << endl;
+    outputStream << "       join the Languages files <file1.bgr> <file2.bgr> ... into <outputFile.bgr>" << endl;
+    outputStream << endl;
+    outputStream << "Parameters:" << endl;
+    outputStream << "-t|-b: text mode or binary mode for the output file (-t by default)" << endl;
+    outputStream << "-o <outputFile.bgr>: name of the output file (output.bgr by default)" << endl;
+    outputStream << "<file*.bgr>: each one of the files to be joined" << endl;
 }
 
 /**

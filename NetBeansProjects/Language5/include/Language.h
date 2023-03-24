@@ -227,6 +227,7 @@ private:
     BigramFreq* _vectorBigramFreq; ///< Dynamic array of BigramFreq
     int _size; ///< Number of elements in _vectorBigramFreq
     static const std::string MAGIC_STRING_T; ///< A const string with the magic string for text files
+    static const std::string MAGIC_STRING_B; ///< A const string with the magic string for binary files
 };
 
 /**

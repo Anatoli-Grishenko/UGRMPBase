@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/src/BigramCounter.o \
+	${OBJECTDIR}/src/Language.o \
 	${OBJECTDIR}/src/metamain.o
 
 
@@ -67,6 +68,11 @@ ${OBJECTDIR}/src/BigramCounter.o: src/BigramCounter.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/BigramCounter.o src/BigramCounter.cpp
+
+${OBJECTDIR}/src/Language.o: src/Language.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/Language.o src/Language.cpp
 
 ${OBJECTDIR}/src/metamain.o: src/metamain.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
