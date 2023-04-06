@@ -1,0 +1,39 @@
+%%%CALL data/30bigrams.bgr data/30bigrams2.bgr tests/output/30bigrams+30bigrams2.bgr
+%%%VALGRIND
+%%%DESCRIPTION Join of data/30bigrams.bgr + data/30bigrams2.bgr
+%%%FROMFILE tests/output/30bigrams+30bigrams2.bgr
+%%%OUTPUT
+MP-LANGUAGE-T-1.0
+spanish
+30
+he 4105
+ha 1407
+de 1374
+ce 971
+hi 929
+do 892
+co 830
+ho 706
+be 697
+ca 641
+di 525
+fo 429
+da 403
+ge 365
+ci 323
+ga 303
+go 290
+bu 284
+cu 273
+ba 267
+bo 244
+fi 229
+gu 228
+fe 211
+fu 191
+bi 186
+fa 179
+gi 134
+du 112
+hu 85
+

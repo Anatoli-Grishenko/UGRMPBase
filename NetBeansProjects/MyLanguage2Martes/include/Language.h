@@ -35,7 +35,7 @@ public:
     Language();
 
     /**
-     * @brief It builds a Language object with "unknown" as
+     * @brief It builds a Language object with "unknow" as
      * identifier, and a vector of @p numberBigrams pairs Bigram-frequency. 
      * Each pair will be initialized as "__" for the Bigram and 0 for the 
      * frequency.

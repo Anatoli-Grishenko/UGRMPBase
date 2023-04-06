@@ -1,0 +1,38 @@
+%%%CALL data/30bigrams.bgr tests/output/30bigrams.bgr.out
+%%%VALGRIND
+%%%DESCRIPTION Only one input file
+%%%FROMFILE tests/output/30bigrams.bgr.out
+%%%OUTPUT
+MP-LANGUAGE-T-1.0
+spanish
+30
+de 822
+do 401
+co 369
+da 288
+ca 276
+ci 268
+di 203
+ha 190
+ba 181
+ce 166
+cu 157
+gu 91
+ho 91
+go 87
+ga 76
+bi 70
+fu 69
+fa 62
+hi 59
+he 47
+be 42
+bu 41
+fi 39
+gi 38
+du 37
+fe 34
+bo 28
+ge 26
+hu 23
+fo 19

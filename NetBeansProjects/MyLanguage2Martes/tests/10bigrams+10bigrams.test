@@ -1,0 +1,18 @@
+%%%CALL data/10bigrams.bgr data/10bigrams.bgr tests/output/10bigrams+10bigrams.bgr
+%%%VALGRIND
+%%%DESCRIPTION Join of data/10bigrams.bgr + data/10bigrams.bgr
+%%%FROMFILE tests/output/10bigrams+10bigrams.bgr
+%%%OUTPUT
+MP-LANGUAGE-T-1.0
+spanish
+10
+am 74
+id 74
+ám 74
+ño 74
+ab 8
+al 8
+aá 8
+añ 8
+ii 8
+ña 8
