@@ -35,7 +35,7 @@ public:
     Language();
 
     /**
-     * @brief It builds a Language object with "unknow" as
+     * @brief It builds a Language object with "unknown" as
      * identifier, and a vector of @p numberBigrams pairs Bigram-frequency. 
      * Each pair will be initialized as "__" for the Bigram and 0 for the 
      * frequency.
@@ -115,7 +115,7 @@ public:
      * the given one @p otherLanguage (\f$L_2\f$).
      * The distance between two Languages \f$L_1\f$ and \f$L_2\f$ is 
      * calculated in the following way:
-     * \f$d = \sum_{bigram_i(L_1)} \frac{ | rank_{bigram_i(L_1)}^{L_1} - 
+     * \f$d = \frac{ \sum_{bigram_i(L_1)} | rank_{bigram_i(L_1)}^{L_1} - 
      * rank_{bigram_i(L_1)}^{L_2} | }{size(L_1) * size(L_1)}\f$, 
      * where \f$bigram_i(L_j)\f$ is the bigram \f$i\f$ of the Language \f$L_j, 
      * j \in \{1, 2\}\f$ and \f$rank_{bigram_i(L_j)}^{L_k}\f$ is the ranking
@@ -130,6 +130,8 @@ public:
      * @param otherLanguage A Language object
      * @pre The list of bigrams of this and otherLanguage should be ordered in 
      * decreasing order of frequency. This is not checked in this method.
+     * @throw Throws a std::invalid_argument exception if the implicit object
+     * (*this) is empty, that is, it does not have any bigram.
      * @return The distance between this Language object and the given 
      * one @p otherLanguage.
      */
