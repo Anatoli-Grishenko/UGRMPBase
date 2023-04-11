@@ -144,9 +144,7 @@ public:
      * bigram in the list of bigrams and this->getSize()-1 the one of the last 
      * bigram.
      * Query method
-     * @param bigram A bigram. Input parameter
-     * @pre The list of bigrams should be ordered in decreasing order of
-     * frequency. This is not checked in this method. 
+     * @param bigram A bigram. Input parameter 
      * @return If found, it returns the position where the bigram 
      * was found. If not, it returns -1
      */

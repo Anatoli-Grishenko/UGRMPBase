@@ -145,8 +145,6 @@ public:
      * bigram.
      * Query method
      * @param bigram A bigram. Input parameter
-     * @pre The list of bigrams should be ordered in decreasing order of
-     * frequency. This is not checked in this method. 
      * @return If found, it returns the position where the bigram 
      * was found. If not, it returns -1
      */
