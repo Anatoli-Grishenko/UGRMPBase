@@ -198,13 +198,6 @@ private:
     std::string _languageId; ///< language identifier
     BigramFreq _vectorBigramFreq[DIM_VECTOR_BIGRAM_FREQ]; ///< array of BigramFreq
     int _size; ///< Number of elements in _vectorBigramFreq
-    
-    /**
-     * @brief Sets the number of BigramFreq objects 
-     * @param size The size to set in this object
-     */
-    void setSize(int size);
-    
     static const std::string MAGIC_STRING_T; ///< A const string with the magic string for text files
 };
 

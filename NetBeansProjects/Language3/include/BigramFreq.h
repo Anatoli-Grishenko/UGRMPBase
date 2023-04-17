@@ -9,7 +9,7 @@
  * @author Andrés Cano Utrera <acu@decsai.ugr.es>
  * @author Luis Castillo Vidal <L.Castillo@decsai.ugr.es>
  *
- * Created on 29 January 2023, 11:00
+ * Created on 12 February 2023, 10:40
  */
 
 #ifndef BIGRAM_FREQ_H
@@ -33,41 +33,37 @@ public:
     BigramFreq();
 
     /**
-     * @brief Gets a const reference to the Bigram of this BigramFreq object.
-     * Query method
+     * @brief Gets a const reference to the Bigram of this BigramFreq object
      * @return A const reference to the Bigram of this BigramFreq object
      */
-    Bigram getBigram();
+    const Bigram& getBigram() const;
 
     /**
      * @brief Gets the frequency of this BigramFreq object
-     * Query method
      * @return The frequency of this BigramFreq object
      */
-    int getFrequency();
+    int getFrequency() const;
 
     /**
      * @brief Sets the Bigram of this BigramFreq object
-     * Modifier method
-     * @param bigram The new Bigram value for this object. Input parameter
+     * @param bigram The new Bigram value for this object 
      */
-    void setBigram(Bigram bigram);
+    void setBigram(const Bigram& bigram);
 
     /**
-     * @brief Sets the frequency of this BigramFreq object. Modifier method.
+     * @brief Sets the frequency of this BigramFreq object
      * @throw std::out_of_range if @p frequency is negative
-     * @param frequency the new frequency value for this BigramFreq object. 
-     * Input parameter
+     * @param frequency the new frequency value for this BigramFreq object
      */
     void setFrequency(int frequency);
     
     /**
      * @brief Obtains a string with the string and frecuency of the bigram
-     * in this object (separated by a whitespace). Query method
+     * in this object (separated by a whitespace).
      * @return A string with the string and frecuency of the bigram
-     * in this object. 
+     * in this object
      */
-    std::string toString();
+    std::string toString() const;
 
 private:
     Bigram _bigram; ///< the Bigram object

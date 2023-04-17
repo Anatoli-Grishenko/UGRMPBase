@@ -9,7 +9,7 @@
  * @author Andrés Cano Utrera <acu@decsai.ugr.es>
  * @author Luis Castillo Vidal <L.Castillo@decsai.ugr.es>
  * 
- * Created on 2 February 2023, 11:00
+ * Created on 12 February 2023, 10:40
  */
 
 #ifndef BIGRAM_H
@@ -52,9 +52,9 @@ public:
      * other than two, then the text of the bigram will be initialized with
      * "__"
      * 
-     * @param text the text for the bigram. Input parameter 
+     * @param text the text for the bigram
      */
-    Bigram(char text[]);
+    Bigram(const char text[]);
     
     /**
      * @brief Obtains a copy of the text of this bigram as a string object
@@ -87,7 +87,7 @@ public:
     char& at(int index);
     
     /**
-     * Converts lowercase letters in this bigram to uppercase. Modifier method
+     * Converts lowercase letters in this bigram to uppercase
      */
     void toUpper();
  
