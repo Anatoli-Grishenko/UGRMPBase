@@ -1,0 +1,6 @@
+%%%CALL ../Books/30bigrams.bgr
+%%%VALGRIND
+%%%DESCRIPTION Run with missing arguments (../Books/30bigrams.bgr)
+%%%OUTPUT
+Error, run with the following parameters:
+language3 [-t min|max] <file1.bgr> <file2.bgr> [ ... <filen.bgr>]

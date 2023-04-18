@@ -1,0 +1,10 @@
+%%%CALL -t max ../Books/prep_xx.bgr ../Books/prep_en.bgr ../Books/prep_fr.bgr ../Books/prep_sp.bgr ../Books/prep_ge.bgr
+%%%VALGRIND
+%%%DESCRIPTION Max distance from prep_xx.bgr  to prep_en.bgr, prep_fr.bgr, prep_sp.bgr and prep_ge.bgr
+%%%OUTPUT
+Distance to ../Books/prep_en.bgr: 0.52
+Distance to ../Books/prep_fr.bgr: 0.39
+Distance to ../Books/prep_sp.bgr: 0.21
+Distance to ../Books/prep_ge.bgr: 0.4
+Farthest language file: ../Books/prep_en.bgr
+Identifier of the farthest language: english

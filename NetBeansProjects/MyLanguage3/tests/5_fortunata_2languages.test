@@ -1,0 +1,8 @@
+%%%CALL ../Books/fortunata.bgr ../Books/quijote.bgr ../Books/fortunata.bgr
+%%%VALGRIND
+%%%DESCRIPTION Distance from fortunata.bgr to quijote.bgr fortunata.bgr
+%%%OUTPUT
+Distance to ../Books/quijote.bgr: 0.0566297
+Distance to ../Books/fortunata.bgr: 0
+Nearest language file: ../Books/fortunata.bgr
+Identifier of the nearest language: spanish

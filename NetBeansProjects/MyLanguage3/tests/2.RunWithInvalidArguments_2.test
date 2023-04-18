@@ -1,0 +1,6 @@
+%%%CALL  -t MIN 30bigrams.bgr 30bigrams.bgr
+%%%VALGRIND
+%%%DESCRIPTION Run with invalid arguments (MIN)
+%%%OUTPUT
+Error, run with the following parameters:
+language3 [-t min|max] <file1.bgr> <file2.bgr> [ ... <filen.bgr>]
