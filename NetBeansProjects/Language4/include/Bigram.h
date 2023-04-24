@@ -87,7 +87,7 @@ public:
     char& at(int index);
     
     /**
-     * Converts lowercase letters in this bigram to uppercase. Modifier method
+     * Converts lowercase letters in this bigram to uppercase
      */
     void toUpper();
  

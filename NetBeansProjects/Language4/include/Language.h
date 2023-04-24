@@ -210,52 +210,6 @@ private:
     BigramFreq* _vectorBigramFreq; ///< Dynamic array of BigramFreq
     int _size; ///< Number of elements in _vectorBigramFreq
     static const std::string MAGIC_STRING_T; ///< A const string with the magic string for text files
-
-    /**
-     * @brief Sets the number of BigramFreq objects 
-     * @param size The size to set in this object
-     */
-    void setSize(int size);
-    
-    /**
-     * @brief Allocates new memory for the vector of BigramFreq with a size 
-     * equals to @p nElements.
-     * @param nElements The number of elements to allocate in the vector of 
-     * BigramFreq
-     */
-    void allocate(int nElements);
-    
-    /** 
-     * @brief 
-     * Frees the memory allocated in this object and then allocates new memory
-     * for a vector of BigramFreq of size equals to @p newSize. 
-     * If the new capacity is less than before, then the last elements of the 
-     * old vector are lost.
-     * If the new capacity is greater than
-     * before, then the old elements of the old vector are placed at the 
-     * begining of the new vector, and the last elements in the new vector, are 
-     * filled with empty object (objects created with the default constructor 
-     * of  BigramFreq).
-     * @param newSize The new capacity for the vector of BigramFreq
-     */
-    void reallocate(int newSize);
-
-    /**
-     * Frees the memory allocated in this object
-     * @pre The pointer _vectorBigramFreq should point to an array in dynamic
-     * memory, that was previously allocated
-     */
-    void deallocate();
-
-    /**
-     * Copies the elements in the dynamic array of BigramFreq of the given object
-     * (otherLanguage) into this object. Also, the identifier is copied.
-     * @pre The dynamic array of BigramFreq in this object must be at least of 
-     * the same size as the one in the given object otherLanguage; otherwise
-     * access to invalid memory positions could be done
-     * @param otherLanguage
-     */
-    void copy(const Language& otherLanguage);
 };
 
 #endif /* LANGUAGE_H */
