@@ -62,9 +62,9 @@ public:
     void setFrequency(int frequency);
     
     /**
-     * @brief Obtains a string with the string and frecuency of the bigram
+     * @brief Obtains a string with the string and frequency of the bigram
      * in this object (separated by a whitespace). Query method
-     * @return A string with the string and frecuency of the bigram
+     * @return A string with the string and frequency of the bigram
      * in this object. 
      */
     std::string toString();
