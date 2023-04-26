@@ -107,7 +107,7 @@ public:
 
     /**
      * @brief Overloading of the operator +=. It increases the current 
-     * frecuencies of the bigrams of this object with the frecuencies of the 
+     * frequencies of the bigrams of this object with the frequencies of the 
      * bigrams of the given object. 
      * Modifier method
      * @param rhs a BigramCounter object 
@@ -128,7 +128,7 @@ public:
 
     /**
      * @brief Builds a Language object from this BigramCounter object. The 
-     * Language will contain the bigrams and frecuencies for those one with 
+     * Language will contain the bigrams and frequencies for those one with 
      * a frequency greater than 0.
      * Query method
      * @return A Language object from this BigramCounter object
