@@ -18,7 +18,7 @@
  * cout, cerr, etc) 
  */
 void showEnglishHelp(ostream& outputStream) {
-    outputStream << "Format:" << endl;
+    outputStream << "Error, run with the following parameters:" << endl;
     outputStream << "learn [-t|-b] [-l languageId] [-o outputFilename] <text1.txt> [<text2.txt> <text3.txt> .... ]" << endl;
     outputStream << "           learn the model for the language languageId from the text files <text1.txt> <text2.txt> <text3.txt> ..." << endl;
     outputStream << endl;

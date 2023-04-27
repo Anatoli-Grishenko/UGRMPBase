@@ -19,7 +19,7 @@
  * cout, cerr, etc) 
  */
 void showEnglishHelp(ostream& outputStream) {
-    outputStream << "Format:" << endl;
+    outputStream << "Error, run with the following parameters:" << endl;
     outputStream << " classify <text.txt> <lang1.bgr> [<lang2.bgr> <lang3.bgr> ....]" << endl;
     outputStream << "          Obtains the identifier of the closest language to the input text file" << endl;
     outputStream << endl;

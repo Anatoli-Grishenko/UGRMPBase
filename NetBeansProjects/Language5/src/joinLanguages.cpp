@@ -19,7 +19,7 @@
  * cout, cerr, etc) 
  */
 void showEnglishHelp(ostream& outputStream) {
-    outputStream << "Format:" << endl;
+    outputStream << "Error, run with the following parameters:" << endl;
     outputStream << "joinLanguages [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>] " << endl;
     outputStream << "       join the Languages files <file1.bgr> <file2.bgr> ... into <outputFile.bgr>" << endl;
     outputStream << endl;
