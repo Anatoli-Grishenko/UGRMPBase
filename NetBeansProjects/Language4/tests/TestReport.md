@@ -84,49 +84,51 @@ As of Apr 28 2023 19:24:46
 | | | | should give ```10```|
 | 40 | T02_Intermediate.BigramFreq_setFrequency_exception |  PASSED |```BigramFreq bf;bf.setFrequency(-10);```|
 | | | | should THROW an exception std::out_of_range|
-| 41 | T02_Intermediate.Language_append_4 |  PASSED |```const int DIM_VECTOR_BIGRAM_FREQ = 2000; int i; int n= DIM_VECTOR_BIGRAM_FREQ; Language lang; BigramFreq bf; bf.setFrequency(10); for ( i = 0; i < n; i++) { Bigram b1(char((i/100)+'A'),char((i MOD 100)+'A')); bf.setBigram(b1); lang.append(bf); } Bigram b2(char((i/100)+'A'),char((i MOD 100)+'A')); bf.setBigram(b2);lang.append(bf);```|
-| | | | should give ```std::out_of_range```|
-| 42 | T02_Intermediate.Language_out_of_range_at_4 |  PASSED |```Language lang; BigramFreq bf; bf.setFrequency(10); for (int i = 0; i < 10; i++) { Bigram b1(char((i/100)+'A'),char((i MOD 100)+'A')); bf.setBigram(b1); lang.append(bf);}lang.at(-1);```|
+| 41 | T02_Intermediate.Language_controlSize_append_3 |  PASSED |```const int DIM_VECTOR_BIGRAM_FREQ = 2000; Language lang; int i; int n= DIM_VECTOR_BIGRAM_FREQ; BigramFreq bf; bf.setFrequency(10); for ( i = 0; i < n; i++) { Bigram b1(char((i/100)+'A'),char((i MOD 100)+'A')); bf.setBigram(b1); lang.append(bf);} lang.append(bf);lang._size```|
+| | | | should give ```2000```|
+| 42 | T02_Intermediate.Language_append_4 |  PASSED |```const int DIM_VECTOR_BIGRAM_FREQ = 2000; int i; int n= DIM_VECTOR_BIGRAM_FREQ; Language lang; BigramFreq bf; bf.setFrequency(10); for ( i = 0; i < n; i++) { Bigram b1(char((i/100)+'A'),char((i MOD 100)+'A')); bf.setBigram(b1); lang.append(bf); } Bigram b2(char((i/100)+'A'),char((i MOD 100)+'A')); bf.setBigram(b2); lang.append(bf);lang._size```|
+| | | | should give ```2001```|
+| 43 | T02_Intermediate.Language_out_of_range_at_4 |  PASSED |```Language lang; BigramFreq bf; bf.setFrequency(10); for (int i = 0; i < 10; i++) { Bigram b1(char((i/100)+'A'),char((i MOD 100)+'A')); bf.setBigram(b1); lang.append(bf);}lang.at(-1);```|
 | | | | should THROW an exception std::out_of_range|
-| 43 | T02_Intermediate.Language_out_of_range_at_5 |  PASSED |```Language lang; BigramFreq bf; bf.setFrequency(10); for (int i = 0; i < 10; i++) { Bigram b1(char((i/100)+'A'),char((i MOD 100)+'A')); bf.setBigram(b1); lang.append(bf);}lang.at(10);```|
+| 44 | T02_Intermediate.Language_out_of_range_at_5 |  PASSED |```Language lang; BigramFreq bf; bf.setFrequency(10); for (int i = 0; i < 10; i++) { Bigram b1(char((i/100)+'A'),char((i MOD 100)+'A')); bf.setBigram(b1); lang.append(bf);}lang.at(10);```|
 | | | | should THROW an exception std::out_of_range|
-| 44 | T02_Intermediate.Language_append2_toString |  PASSED |```Bigram b1("XY"); Bigram b2("ZZ"); BigramFreq bf; bf.setBigram(b1); bf.setFrequency(10); Language lang; lang.append(bf); lang.append(bf); bf.setBigram(b2); lang.append(bf);lang.inspectT()```|
+| 45 | T02_Intermediate.Language_append2_toString |  PASSED |```Bigram b1("XY"); Bigram b2("ZZ"); BigramFreq bf; bf.setBigram(b1); bf.setFrequency(10); Language lang; lang.append(bf); lang.append(bf); bf.setBigram(b2); lang.append(bf);lang.inspectT()```|
 | | | | should give ```"unknown 2 XY 20 ZZ 10 "```|
-| 45 | T02_Intermediate.Language_join_intersection_empy_1 |  PASSED |```Bigram b1("aa"); Bigram b2("bb"); Bigram b3("cc"); Bigram b4("dd"); BigramFreq bf; bf.setFrequency(10); Language l1; Language l2; bf.setBigram(b1); l1.append(bf); bf.setBigram(b2); l1.append(bf); bf.setBigram(b3); l2.append(bf); bf.setBigram(b4); l2.append(bf); int initialSize = l1.getSize(); l1.join(l2);l1._size```|
+| 46 | T02_Intermediate.Language_join_intersection_empy_1 |  PASSED |```Bigram b1("aa"); Bigram b2("bb"); Bigram b3("cc"); Bigram b4("dd"); BigramFreq bf; bf.setFrequency(10); Language l1; Language l2; bf.setBigram(b1); l1.append(bf); bf.setBigram(b2); l1.append(bf); bf.setBigram(b3); l2.append(bf); bf.setBigram(b4); l2.append(bf); int initialSize = l1.getSize(); l1.join(l2);l1._size```|
 | | | | should give ```4```|
-| 46 | T02_Intermediate.Language_joinShouldIncreaseFrequencyWhenBigramIsAlreadyInLanguage_2 |  PASSED |```Bigram b1("aa"); Bigram b2("bb"); Bigram b3("cc"); Bigram b4("dd"); BigramFreq bf; bf.setFrequency(10); Language l1; Language l2; bf.setBigram(b1); l1.append(bf); l2.append(bf); bf.setBigram(b2); l1.append(bf); l2.append(bf); bf.setBigram(b3); l1.append(bf); l2.append(bf); bf.setBigram(b4); l1.append(bf); l2.append(bf); l1.join(l2); int sum=0; for (int i= 0; i < l1.getSize(); i++) sum += l1.at(i).getFrequency();l1._size*20```|
+| 47 | T02_Intermediate.Language_joinShouldIncreaseFrequencyWhenBigramIsAlreadyInLanguage_2 |  PASSED |```Bigram b1("aa"); Bigram b2("bb"); Bigram b3("cc"); Bigram b4("dd"); BigramFreq bf; bf.setFrequency(10); Language l1; Language l2; bf.setBigram(b1); l1.append(bf); l2.append(bf); bf.setBigram(b2); l1.append(bf); l2.append(bf); bf.setBigram(b3); l1.append(bf); l2.append(bf); bf.setBigram(b4); l1.append(bf); l2.append(bf); l1.join(l2); int sum=0; for (int i= 0; i < l1.getSize(); i++) sum += l1.at(i).getFrequency();l1._size*20```|
 | | | | should give ```80```|
-| 47 | T02_Intermediate.Language_saveLoad_10 |  PASSED |```Language l1; Language l2; l1.setLanguageId("Test1"); char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=0; i < 10; i++) { bf.setBigram(b); bf.setFrequency(10-i); l1.append(bf); b.at(1)=c+i; bf.setBigram(b); bf.setFrequency(10-i); l1.append(bf); } l1.sort(); char* fileName = "tests/output/test_save1.bgr"; l1.save(fileName); l2.load(fileName); bool iguales=true; iguales = l1.inspectT() == l2.inspectT();iguales```|
+| 48 | T02_Intermediate.Language_saveLoad_10 |  PASSED |```Language l1; Language l2; l1.setLanguageId("Test1"); char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=0; i < 10; i++) { bf.setBigram(b); bf.setFrequency(10-i); l1.append(bf); b.at(1)=c+i; bf.setBigram(b); bf.setFrequency(10-i); l1.append(bf); } l1.sort(); char* fileName = "tests/output/test_save1.bgr"; l1.save(fileName); l2.load(fileName); bool iguales=true; iguales = l1.inspectT() == l2.inspectT();iguales```|
 | | | | should give ```true```|
-| 48 | T02_Intermediate.sort_2_tieByFreq |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10); l1.append(bf); b.at(1)=c+i; } l1.sort();l1.inspectT();```|
+| 49 | T02_Intermediate.sort_2_tieByFreq |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10); l1.append(bf); b.at(1)=c+i; } l1.sort();l1.inspectT();```|
 | | | | should give ```"unknown 3 aa 10 ab 10 ac 10 "```|
-| 49 | T02_Intermediate.sort_3_mixed |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10*i); l1.append(bf); b.at(1)=c+i; } bf.setBigram(b); l1.append(bf); l1.sort();l1.inspectT();```|
+| 50 | T02_Intermediate.sort_3_mixed |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10*i); l1.append(bf); b.at(1)=c+i; } bf.setBigram(b); l1.append(bf); l1.sort();l1.inspectT();```|
 | | | | should give ```"unknown 4 ac 30 ad 30 ab 20 aa 10 "```|
-| 50 | T02_Intermediate.Language_getDistance_lg2lg_0 |  PASSED |```Bigram b1("aa"); Bigram b2("bb"); Bigram b3("cc"); Bigram b4("dd"); BigramFreq bf; bf.setFrequency(10); Language l1; bf.setBigram(b1); l1.append(bf); bf.setBigram(b2); l1.append(bf); bf.setBigram(b3); l1.append(bf); bf.setBigram(b4); l1.append(bf);l1.getDistance(l1)```|
+| 51 | T02_Intermediate.Language_getDistance_lg2lg_0 |  PASSED |```Bigram b1("aa"); Bigram b2("bb"); Bigram b3("cc"); Bigram b4("dd"); BigramFreq bf; bf.setFrequency(10); Language l1; bf.setBigram(b1); l1.append(bf); bf.setBigram(b2); l1.append(bf); bf.setBigram(b3); l1.append(bf); bf.setBigram(b4); l1.append(bf);l1.getDistance(l1)```|
 | | | | should give ```0.000000```|
-| 51 | T02_Intermediate.Language_getDistance_otherToEmpy_2 |  PASSED |```Bigram b1("aa"); Bigram b2("bb"); Bigram b3("cc"); Bigram b4("dd"); BigramFreq bf; bf.setFrequency(10); Language l1; Language empty; bf.setBigram(b1); l1.append(bf); bf.setBigram(b2); l1.append(bf); bf.setBigram(b3); l1.append(bf); bf.setBigram(b4); l1.append(bf);l1.getDistance(empty)```|
+| 52 | T02_Intermediate.Language_getDistance_otherToEmpy_2 |  PASSED |```Bigram b1("aa"); Bigram b2("bb"); Bigram b3("cc"); Bigram b4("dd"); BigramFreq bf; bf.setFrequency(10); Language l1; Language empty; bf.setBigram(b1); l1.append(bf); bf.setBigram(b2); l1.append(bf); bf.setBigram(b3); l1.append(bf); bf.setBigram(b4); l1.append(bf);l1.getDistance(empty)```|
 | | | | should give ```0.625000```|
-| 52 | T02_Intermediate.Language_getDistance_allPresentButInReverseOrder_3 |  PASSED |```Bigram b1("aa"); Bigram b2("bb"); Bigram b3("cc"); Bigram b4("dd"); BigramFreq bf; bf.setFrequency(10); Language l1; Language l2; bf.setBigram(b1); l1.append(bf); bf.setBigram(b2); l1.append(bf); bf.setBigram(b3); l1.append(bf); bf.setBigram(b4); l1.append(bf); bf.setBigram(b4); l2.append(bf); bf.setBigram(b3); l2.append(bf); bf.setBigram(b2); l2.append(bf); bf.setBigram(b1); l2.append(bf);l1.getDistance(l2)```|
+| 53 | T02_Intermediate.Language_getDistance_allPresentButInReverseOrder_3 |  PASSED |```Bigram b1("aa"); Bigram b2("bb"); Bigram b3("cc"); Bigram b4("dd"); BigramFreq bf; bf.setFrequency(10); Language l1; Language l2; bf.setBigram(b1); l1.append(bf); bf.setBigram(b2); l1.append(bf); bf.setBigram(b3); l1.append(bf); bf.setBigram(b4); l1.append(bf); bf.setBigram(b4); l2.append(bf); bf.setBigram(b3); l2.append(bf); bf.setBigram(b2); l2.append(bf); bf.setBigram(b1); l2.append(bf);l1.getDistance(l2)```|
 | | | | should give ```0.500000```|
-| 53 | T02_Intermediate.Language_Assign_1 |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10); l1.append(bf); b.at(1)=c+i; } Language lc; lc=l1; lc.at(0).setFrequency(20);lc.inspectT();```|
+| 54 | T02_Intermediate.Language_Assign_1 |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10); l1.append(bf); b.at(1)=c+i; } Language lc; lc=l1; lc.at(0).setFrequency(20);lc.inspectT();```|
 | | | | should give ```"unknown 3 aa 20 ab 10 ac 10 "```|
-| 54 | T02_Intermediate.Language_Assign_2 |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10); l1.append(bf); b.at(1)=c+i; } Language lc; lc=l1; lc.at(0).setFrequency(20);l1.inspectT();```|
+| 55 | T02_Intermediate.Language_Assign_2 |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10); l1.append(bf); b.at(1)=c+i; } Language lc; lc=l1; lc.at(0).setFrequency(20);l1.inspectT();```|
 | | | | should give ```"unknown 3 aa 10 ab 10 ac 10 "```|
-| 55 | T02_Intermediate.Language_Ctor_Copy_1 |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10); l1.append(bf); b.at(1)=c+i; } Language lc(l1); lc.at(0).setFrequency(20);l1.inspectT();```|
+| 56 | T02_Intermediate.Language_Ctor_Copy_1 |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10); l1.append(bf); b.at(1)=c+i; } Language lc(l1); lc.at(0).setFrequency(20);l1.inspectT();```|
 | | | | should give ```"unknown 3 aa 10 ab 10 ac 10 "```|
-| 56 | T02_Intermediate.Language_Ctor_Copy_2 |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10); l1.append(bf); b.at(1)=c+i; } Language lc(l1); lc.at(0).setFrequency(20);lc.inspectT();```|
+| 57 | T02_Intermediate.Language_Ctor_Copy_2 |  PASSED |```Language l1; char c='a'; BigramFreq bf; Bigram b(c,c); for(int i=1; i < 4; i++) { bf.setBigram(b); bf.setFrequency(10); l1.append(bf); b.at(1)=c+i; } Language lc(l1); lc.at(0).setFrequency(20);lc.inspectT();```|
 | | | | should give ```"unknown 3 aa 20 ab 10 ac 10 "```|
-| 57| T03_Advanced.Integration_RunWithMissingArguments_1-valgrind | PASSED | NO LEAKS |
-| 57 | T03_Advanced.Integration_RunWithMissingArguments_1 | PASSED | Called without any argument|
-| 58| T03_Advanced.Integration_RunWithMissingArguments_2-valgrind | PASSED | NO LEAKS |
-| 58 | T03_Advanced.Integration_RunWithMissingArguments_2 | PASSED | Run with missing arguments (../Books/30bigrams.bgr)|
-| 59| T03_Advanced.Integration_RunWithInvalidArguments_1-valgrind | PASSED | NO LEAKS |
-| 59 | T03_Advanced.Integration_RunWithInvalidArguments_1 | PASSED | Run with invalid arguments (-f ../Books/30bigrams.bgr ../Books/30bigrams.bgr)|
-| 60| T03_Advanced.Integration_RunWithInvalidArguments2-valgrind | PASSED | NO LEAKS |
-| 60 | T03_Advanced.Integration_RunWithInvalidArguments2 | PASSED | Run with invalid arguments (-t MIN ../Books/30bigrams.bgr ../Books/30bigrams.bgr)|
-| 61| T03_Advanced.Integration_3_quijote_4languages-valgrind | PASSED | NO LEAKS |
-| 61 | T03_Advanced.Integration_3_quijote_4languages | PASSED | min distance from quijote.bgr to fortunata.bgr, aliceWonder.bgr, lesMiserables.bgr and BodasdeSangre_FedericoGarciaLorca.bgr (../Books/quijote.bgr ../Books/fortunata.bgr ../Books/aliceWonder.bgr ../Books/lesMiserables.bgr ../Books/BodasdeSangre_FedericoGarciaLorca.bgr)|
-| 62| T03_Advanced.Integration_4_prep_xx_4languages-valgrind | PASSED | NO LEAKS |
-| 62 | T03_Advanced.Integration_4_prep_xx_4languages | PASSED | max distance from prep_xx.bgr to the other prep_ (-t max ../Books/prep_xx.bgr ../Books/prep_en.bgr ../Books/prep_fr.bgr ../Books/prep_sp.bgr ../Books/prep_ge.bgr)|
-| 63| T03_Advanced.Integration_5_fortunata_2languages-valgrind | PASSED | NO LEAKS |
-| 63 | T03_Advanced.Integration_5_fortunata_2languages | PASSED | min distance from fortunata.bgr to quijote.bgr and fortunata.bgr (../Books/fortunata.bgr ../Books/quijote.bgr ../Books/fortunata.bgr)|
+| 58| T03_Advanced.Integration_RunWithMissingArguments_1-valgrind | PASSED | NO LEAKS |
+| 58 | T03_Advanced.Integration_RunWithMissingArguments_1 | PASSED | Called without any argument|
+| 59| T03_Advanced.Integration_RunWithMissingArguments_2-valgrind | PASSED | NO LEAKS |
+| 59 | T03_Advanced.Integration_RunWithMissingArguments_2 | PASSED | Run with missing arguments (../Books/30bigrams.bgr)|
+| 60| T03_Advanced.Integration_RunWithInvalidArguments_1-valgrind | PASSED | NO LEAKS |
+| 60 | T03_Advanced.Integration_RunWithInvalidArguments_1 | PASSED | Run with invalid arguments (-f ../Books/30bigrams.bgr ../Books/30bigrams.bgr)|
+| 61| T03_Advanced.Integration_RunWithInvalidArguments2-valgrind | PASSED | NO LEAKS |
+| 61 | T03_Advanced.Integration_RunWithInvalidArguments2 | PASSED | Run with invalid arguments (-t MIN ../Books/30bigrams.bgr ../Books/30bigrams.bgr)|
+| 62| T03_Advanced.Integration_3_quijote_4languages-valgrind | PASSED | NO LEAKS |
+| 62 | T03_Advanced.Integration_3_quijote_4languages | PASSED | min distance from quijote.bgr to fortunata.bgr, aliceWonder.bgr, lesMiserables.bgr and BodasdeSangre_FedericoGarciaLorca.bgr (../Books/quijote.bgr ../Books/fortunata.bgr ../Books/aliceWonder.bgr ../Books/lesMiserables.bgr ../Books/BodasdeSangre_FedericoGarciaLorca.bgr)|
+| 63| T03_Advanced.Integration_4_prep_xx_4languages-valgrind | PASSED | NO LEAKS |
+| 63 | T03_Advanced.Integration_4_prep_xx_4languages | PASSED | max distance from prep_xx.bgr to the other prep_ (-t max ../Books/prep_xx.bgr ../Books/prep_en.bgr ../Books/prep_fr.bgr ../Books/prep_sp.bgr ../Books/prep_ge.bgr)|
+| 64| T03_Advanced.Integration_5_fortunata_2languages-valgrind | PASSED | NO LEAKS |
+| 64 | T03_Advanced.Integration_5_fortunata_2languages | PASSED | min distance from fortunata.bgr to quijote.bgr and fortunata.bgr (../Books/fortunata.bgr ../Books/quijote.bgr ../Books/fortunata.bgr)|
