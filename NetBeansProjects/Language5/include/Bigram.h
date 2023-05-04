@@ -90,6 +90,21 @@ public:
      * Converts lowercase letters in this bigram to uppercase. Modifier method
      */
     void toUpper();
+    
+    /**
+     * Serializes this object to the given output stream. Only the two
+     * bytes of the two characters of the bigram are sent to the output stream.
+     * The '\0' is not sent to the output stream
+     * @param outputStream A output stream where this object will be serialized
+     */
+    void serialize(std::ostream& outputStream);
+    
+    /**
+     * Deserializes this object from the given input stream. It reads two
+     * bytes from the given input stream and put them in the text of this Bigram
+     * @param inputSstream A input stream from which this object will be deserialized
+     */
+    void deserialize(std::istream& inputStream);
  
 private:   
 

@@ -64,6 +64,24 @@ public:
      * in this object
      */
     std::string toString() const;
+    
+    /**
+     * Serializes this object to the given output stream. It first serializes
+     * the bigram of this object and them the bytes of the
+     * frequency (an int value) in binary format (using 
+     * method ostream::write(const char* s, streamsize n))
+     * @param outputStream A output stream where this object will be serialized
+     */
+    void serialize(std::ostream& outputStream);
+    
+    /**
+     * Deserializes this object from the given input stream. It first deserializes
+     * the Bigram of this object and them then the bytes of the
+     * frequency (an int value) in binary format (using 
+     * method istream::read(char* s, streamsize n))
+     * @param inputSstream A input stream from which this object will be deserialized
+     */
+    void deserialize(std::istream& inputSstream);
 
 private:
     Bigram _bigram; ///< the Bigram object
