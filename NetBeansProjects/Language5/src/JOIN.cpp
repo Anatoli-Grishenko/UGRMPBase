@@ -4,7 +4,7 @@
  */
 
 /** 
- * @file joinLanguages.cpp
+ * @file JOIN.cpp
  * @author Silvia Acid Carrillo <acid@decsai.ugr.es>
  * @author Andrés Cano Utrera <acu@decsai.ugr.es>
  * @author Luis Castillo Vidal <L.Castillo@decsai.ugr.es>
@@ -20,8 +20,8 @@
  */
 void showEnglishHelp(ostream& outputStream) {
     outputStream << "Error, run with the following parameters:" << endl;
-    outputStream << "joinLanguages [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>] " << endl;
-    outputStream << "       join the Languages files <file1.bgr> <file2.bgr> ... into <outputFile.bgr>" << endl;
+    outputStream << "JOIN [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>] " << endl;
+    outputStream << "       join the Language files <file1.bgr> <file2.bgr> ... into <outputFile.bgr>" << endl;
     outputStream << endl;
     outputStream << "Parameters:" << endl;
     outputStream << "-t|-b: text mode or binary mode for the output file (-t by default)" << endl;
@@ -37,7 +37,7 @@ void showEnglishHelp(ostream& outputStream) {
  * frequencies. Finally, the resulting Language is saved in an output file. The 
  * program must have at least an output file. 
  * Running example:
- * >  joinLanguages [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>]
+ * >  JOIN [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>]
  * @param argc The number of command line parameters
  * @param argv The vector of command line parameters (cstrings)
  * @return 0 If there is no error; a value > 0 if error

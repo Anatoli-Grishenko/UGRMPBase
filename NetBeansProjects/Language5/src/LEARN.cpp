@@ -4,7 +4,7 @@
  */
 
 /** 
- * @file learn.cpp
+ * @file LEARN.cpp
  * @author Silvia Acid Carrillo <acid@decsai.ugr.es>
  * @author Andrés Cano Utrera <acu@decsai.ugr.es>
  * @author Luis Castillo Vidal <L.Castillo@decsai.ugr.es>
@@ -19,7 +19,7 @@
  */
 void showEnglishHelp(ostream& outputStream) {
     outputStream << "Error, run with the following parameters:" << endl;
-    outputStream << "learn [-t|-b] [-l languageId] [-o outputFilename] <text1.txt> [<text2.txt> <text3.txt> .... ]" << endl;
+    outputStream << "LEARN [-t|-b] [-l languageId] [-o outputFilename] <text1.txt> [<text2.txt> <text3.txt> .... ]" << endl;
     outputStream << "           learn the model for the language languageId from the text files <text1.txt> <text2.txt> <text3.txt> ..." << endl;
     outputStream << endl;
     outputStream << "Parameters:" << endl;
@@ -33,7 +33,7 @@ void showEnglishHelp(ostream& outputStream) {
  * This program learns a Language model from a set of input tex files (tex1.txt,
  * tex2.txt, ...
  * Running example:
- * > learn [-t|-b] [-l languageId] [-o outputFilename] <text1.txt> [<text2.txt> <text3.txt> ....]
+ * > LEARN [-t|-b] [-l languageId] [-o outputFilename] <text1.txt> [<text2.txt> <text3.txt> ....]
  * @param argc The number of command line parameters
  * @param argv The vector of command line parameters (cstrings)
  * @return 0 If there is no error; a value > 0 if error

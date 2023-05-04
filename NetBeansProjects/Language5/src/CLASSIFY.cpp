@@ -4,7 +4,7 @@
  */
 
 /** 
- * @file classify.cpp
+ * @file CLASSIFY.cpp
  * @author Silvia Acid Carrillo <acid@decsai.ugr.es>
  * @author Andrés Cano Utrera <acu@decsai.ugr.es>
  * @author Luis Castillo Vidal <L.Castillo@decsai.ugr.es>
@@ -20,7 +20,7 @@
  */
 void showEnglishHelp(ostream& outputStream) {
     outputStream << "Error, run with the following parameters:" << endl;
-    outputStream << "classify <text.txt> <lang1.bgr> [<lang2.bgr> <lang3.bgr> ....]" << endl;
+    outputStream << "CLASSIFY <text.txt> <lang1.bgr> [<lang2.bgr> <lang3.bgr> ....]" << endl;
     outputStream << "          Obtains the identifier of the closest language to the input text file" << endl;
     outputStream << endl;
 }
@@ -31,7 +31,7 @@ void showEnglishHelp(ostream& outputStream) {
  * <lang1.bgr>, <lang2.bgr>, ...
  * 
  * Running example:
- * > classify  <text.txt> <lang1.bgr> [<lang2.bgr> <lang3.bgr> ...]
+ * > CLASSIFY  <text.txt> <lang1.bgr> [<lang2.bgr> <lang3.bgr> ...]
  * @param argc The number of command line parameters
  * @param argv The vector of command line parameters (cstrings)
  * @return 0 If there is no error; a value > 0 if error
