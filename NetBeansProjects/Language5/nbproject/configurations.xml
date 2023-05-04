@@ -112,6 +112,9 @@
             <pElem>include</pElem>
           </incDir>
         </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/${CND_CONF}</output>
+        </linkerTool>
       </compileType>
       <item path="include/Bigram.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -141,6 +144,9 @@
             <pElem>include</pElem>
           </incDir>
         </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/${CND_CONF}</output>
+        </linkerTool>
       </compileType>
       <item path="include/Bigram.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -170,6 +176,9 @@
             <pElem>include</pElem>
           </incDir>
         </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/${CND_CONF}</output>
+        </linkerTool>
       </compileType>
       <item path="include/Bigram.h" ex="false" tool="3" flavor2="0">
       </item>
