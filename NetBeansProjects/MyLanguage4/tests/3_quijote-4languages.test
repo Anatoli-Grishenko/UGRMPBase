@@ -1,0 +1,10 @@
+%%%CALL ../Books/quijote.bgr ../Books/fortunata.bgr ../Books/aliceWonder.bgr ../Books/lesMiserables.bgr ../Books/BodasdeSangre_FedericoGarciaLorca.bgr
+%%%VALGRIND
+%%%DESCRIPTION Distance from quijote.bgr to fortunata.bgr aliceWonder.bgr lesMiserables.bgr  BodasdeSangre_FedericoGarciaLorca.bgr
+%%%OUTPUT
+Distance to ../Books/fortunata.bgr: 0.0554647
+Distance to ../Books/aliceWonder.bgr: 0.250935
+Distance to ../Books/lesMiserables.bgr: 0.22352
+Distance to ../Books/BodasdeSangre_FedericoGarciaLorca.bgr: 0.13272
+Nearest language file: ../Books/fortunata.bgr
+Identifier of the nearest language: spanish
