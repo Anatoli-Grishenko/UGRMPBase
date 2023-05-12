@@ -1,0 +1,6 @@
+%%%CALL ../Books/quijote.txt ../Books/esp.bgr
+%%%VALGRIND
+%%%DESCRIPTION Classify quijote.txt book [CLASSIFY ../Books/quijote.txt ../Books/esp.bgr]
+%%%RELEASE CLASSIFY
+%%%OUTPUT
+Final decision: language spanish with a distance of 0.182763

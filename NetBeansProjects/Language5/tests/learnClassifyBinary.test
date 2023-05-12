@@ -1,0 +1,5 @@
+%%%CALL -b -l spanish -o tests/output/spanishBinary.bgr ../Books/quijote.txt ../Books/fortunata.txt; dist/CLASSIFY/GNU-Linux/CLASSIFY ../Books/BodasdeSangre_FedericoGarciaLorca.txt ../Books/changedMan.bgr ../Books/lesMiserables.bgr ../Books/Die_Verwandlung.Franz_Kafka.German.bgr tests/output/spanishBinary.bgr
+%%%DESCRIPTION Learn spanish language from quijote.txt and fortunata.txt books in binary format and use it to classify BodasdeSangre_FedericoGarciaLorca.txt book [LEARN -b -l spanish -o tests/output/spanishBinary.bgr ../Books/quijote.txt ../Books/fortunata.txt; dist/CLASSIFY/GNU-Linux/CLASSIFY ../Books/BodasdeSangre_FedericoGarciaLorca.txt ../Books/changedMan.bgr ../Books/lesMiserables.bgr ../Books/Die_Verwandlung.Franz_Kafka.German.bgr tests/output/spanishBinary.bgr]
+%%%RELEASE LEARN
+%%%OUTPUT
+Final decision: language spanish with a distance of 0.112941
