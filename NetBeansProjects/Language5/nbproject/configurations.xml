@@ -111,6 +111,7 @@
           <incDir>
             <pElem>include</pElem>
           </incDir>
+          <commandLine>-D LEARN</commandLine>
         </ccTool>
         <linkerTool>
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/${CND_CONF}</output>
@@ -143,6 +144,7 @@
           <incDir>
             <pElem>include</pElem>
           </incDir>
+          <commandLine>-D JOIN</commandLine>
         </ccTool>
         <linkerTool>
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/${CND_CONF}</output>
@@ -175,6 +177,7 @@
           <incDir>
             <pElem>include</pElem>
           </incDir>
+          <commandLine>-D CLASSIFY</commandLine>
         </ccTool>
         <linkerTool>
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/${CND_CONF}</output>
