@@ -38,7 +38,7 @@ public:
 
     /**
      * @brief Constructor of the class. The object will contain a matrix of integers
-     * with as many rows and colums as the number of characters in @p validChars
+     * with as many rows and columns as the number of characters in @p validChars
      * Each element of the matrix will be set to 0
      * @param validChars The set of characters that are considered as 
      * part of a word. Input parameter
