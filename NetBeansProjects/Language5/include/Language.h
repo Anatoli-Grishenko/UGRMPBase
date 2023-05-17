@@ -153,7 +153,7 @@ public:
     std::string toString() const;
 
     /**
-     * @brief Sort the vector of BigramFreq in decreasing order of frequency.
+     * @brief Sorts the vector of BigramFreq in decreasing order of frequency.
      * If two BigramFreq objects have the same frequency, then the alphabetical 
      * order of the bigrams of those objects will be considered (the object 
      * with a bigram that comes first alphabetically will appear first)
