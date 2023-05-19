@@ -56,10 +56,12 @@ function doTest  {
         then
             BINARY=./dist/$RELEASE/GNU-Linux/$RELEASE
         else
-
             if grep "está actualizado" $MAKEOUT;
             then
                 BINARY=$(grep "está actualizado" $MAKEOUT | sed "s/^.*'dist/dist/;s/' está actualizado.*$//")
+            elif grep "is up to date" $MAKEOUT;
+            then
+                BINARY=$(grep "is up to date" $MAKEOUT | sed "s/^.*'dist/dist/;s/' is up to date.*$//")
             else
                 BINARY=$(grep "g++ .* -o dist/" $MAKEOUT | sed "s/^.*-o //;s/ build.*$//")
             fi
