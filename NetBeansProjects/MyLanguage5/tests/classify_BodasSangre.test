@@ -1,6 +1,0 @@
-%%%CALL ../Books/BodasdeSangre_FedericoGarciaLorca.txt ../Books/changedMan.bgr ../Books/lesMiserables.bgr ../Books/fortunata.bgr ../Books/Die_Verwandlung.Franz_Kafka.German.bgr
-%%%VALGRIND
-%%%DESCRIPTION Classify BodasdeSangre_FedericoGarciaLorca.txt book using 4 languages [CLASSIFY ../Books/BodasdeSangre_FedericoGarciaLorca.txt ../Books/changedMan.bgr ../Books/lesMiserables.bgr ../Books/fortunata.bgr ../Books/Die_Verwandlung.Franz_Kafka.German.bgr]
-%%%RELEASE CLASSIFY
-%%%OUTPUT
-Final decision: language spanish with a distance of 0.119412

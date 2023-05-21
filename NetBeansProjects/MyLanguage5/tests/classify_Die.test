@@ -1,6 +1,0 @@
-%%%CALL ../Books/Die_Verwandlung.Franz_Kafka.German.txt ../Books/changedMan.bgr ../Books/lesMiserables.bgr ../Books/fortunata.bgr ../Books/aliceWonder.bgr
-%%%VALGRIND
-%%%DESCRIPTION Classify Die_Verwandlung.Franz_Kafka.German.txt book using 4 languages [CLASSIFY ../Books/Die_Verwandlung.Franz_Kafka.German.txt ../Books/changedMan.bgr ../Books/lesMiserables.bgr ../Books/fortunata.bgr ../Books/aliceWonder.bgr]
-%%%RELEASE CLASSIFY
-%%%OUTPUT
-Final decision: language english with a distance of 0.238421
