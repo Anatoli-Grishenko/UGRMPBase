@@ -1,0 +1,14 @@
+%%%CALL -t -l spanish -O tests/output/quijote.bgr ../Books/quijote.txt
+%%%VALGRIND
+%%%DESCRIPTION Learn: Run without arguments [LEARN -t -l spanish -O tests/output/quijote.bgr ../Books/quijote.txt]
+%%%RELEASE LEARN
+%%%OUTPUT
+Error, run with the following parameters:
+LEARN [-t|-b] [-l languageId] [-o outputFilename] <text1.txt> [<text2.txt> <text3.txt> .... ]
+           learn the model for the language languageId from the text files <text1.txt> <text2.txt> <text3.txt> ...
+
+Parameters:
+-t|-b: text mode or binary mode for the output file (-t by default)
+-l languageId: language identifier (unknown by default)
+-o outputFilename: name of the output file (output.bgr by default)
+<text1.txt> <text2.txt> <text3.txt> ....: names of the input files (at least one is mandatory)

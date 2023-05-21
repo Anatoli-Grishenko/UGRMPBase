@@ -1,0 +1,13 @@
+%%%CALL -O tests/output/30bigrams.bgr ../Books/30bigrams.bgr
+%%%VALGRIND
+%%%DESCRIPTION Run with invalid arguments [JOIN -O tests/output/30bigrams.bgr ../Books/30bigrams.bgr]
+%%%RELEASE JOIN
+%%%OUTPUT
+Error, run with the following parameters:
+JOIN [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>] 
+       join the Language files <file1.bgr> <file2.bgr> ... into <outputFile.bgr>
+
+Parameters:
+-t|-b: text mode or binary mode for the output file (-t by default)
+-o <outputFile.bgr>: name of the output file (output.bgr by default)
+<file*.bgr>: each one of the files to be joined
