@@ -34,7 +34,7 @@ void showEnglishHelp(ostream& outputStream) {
  * passed as parameters to main(). It obtains as result the union of all the 
  * input Language objects. The result is then sorted by decreasing order of 
  * frequency and alphabetical order of bigrams when there is any tie in 
- * frequencies. Finally, the resulting Language is saved in an output file. The 
+ * frequencies. Finally, the resulting Language is saved in an input file. The 
  * program must have at least an output file. 
  * Running example:
  * >  JOIN [-t|-b] [-o <outputFile.bgr>] <file1.bgr> [<file2.bgr> ... <filen.bgr>]
