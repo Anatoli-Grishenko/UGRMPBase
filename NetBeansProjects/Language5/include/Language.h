@@ -165,11 +165,13 @@ public:
      * @brief Saves this Language object in the given file
      * @param fileName A c-string with the name of the file where this Language 
      * object will be saved
+     * @param mode The mode to use to save this Language object: 't' for text
+     * mode and 'b' for binary mode
      * @throw std::ios_base::failure Throws a std::ios_base::failure exception 
      * if the given file cannot be opened or if an error occurs while writing
      * to the file
      */
-    void save(const char fileName[]) const;
+    void save(const char fileName[], char mode = 't') const;
 
     /**
      * @brief Loads into this object the Language object stored in the given 
