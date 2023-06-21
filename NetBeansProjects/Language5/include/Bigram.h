@@ -94,15 +94,17 @@ public:
     /**
      * Serializes this object to the given output stream. Only the two
      * bytes of the two characters of the bigram are sent to the output stream.
-     * The '\0' is not sent to the output stream
-     * @param outputStream A output stream where this object will be serialized
+     * The '\0' is not sent to the output stream.
+     * Query method
+     * @param outputStream An output stream where this object will be serialized
      */
     void serialize(std::ostream& outputStream);
     
     /**
      * Deserializes this object from the given input stream. It reads two
      * bytes from the given input stream and put them in the text of this Bigram
-     * @param inputSstream A input stream from which this object will be deserialized
+     * Modifier method
+     * @param inputSstream An input stream from which this object will be deserialized
      */
     void deserialize(std::istream& inputStream);
  

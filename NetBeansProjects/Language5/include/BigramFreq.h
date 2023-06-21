@@ -70,7 +70,8 @@ public:
      * the bigram of this object and them the bytes of the
      * frequency (an int value) in binary format (using 
      * method ostream::write(const char* s, streamsize n))
-     * @param outputStream A output stream where this object will be serialized
+     * Query method
+     * @param outputStream An output stream where this object will be serialized
      */
     void serialize(std::ostream& outputStream);
     
@@ -79,7 +80,8 @@ public:
      * the Bigram of this object and them then the bytes of the
      * frequency (an int value) in binary format (using 
      * method istream::read(char* s, streamsize n))
-     * @param inputSstream A input stream from which this object will be deserialized
+     * Modifier method
+     * @param inputSstream An input stream from which this object will be deserialized
      */
     void deserialize(std::istream& inputSstream);
 
