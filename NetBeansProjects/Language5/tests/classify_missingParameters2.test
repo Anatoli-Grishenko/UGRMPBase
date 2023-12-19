@@ -1,4 +1,4 @@
-%%%CALL
+%%%CALL ../Books/lesMiserables.txt
 %%%VALGRIND
 %%%DESCRIPTION Classify with missing  parameters [CLASSIFY ../Books/lesMiserables.txt]
 %%%RELEASE CLASSIFY
