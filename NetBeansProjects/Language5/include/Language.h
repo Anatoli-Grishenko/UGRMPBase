@@ -41,15 +41,17 @@ public:
      * frequency.
      * @throw std::out_of_range Throws a std::out_of_range exception if
      * @p numberBigrams <0
-     * @param numberBigrams The number of bigrams to use in this Language
+     * @param numberBigrams The number of bigrams to use in this Language.
+     * Input parameter
      */
     Language(int numberBigrams);
     
     /**
      * @brief Copy constructor
-     * @param orig the Language object used as source for the copy
+     * @param orig the Language object used as source for the copy. 
+     * Input parameter
      */
-    Language(const Language& orig);
+    Language(Language orig);
     
     /**
      * @brief Destructor of class Language
@@ -58,38 +60,43 @@ public:
     
     /**
      * @brief Overloading of the assignment operator for Language class
-     * @param orig the Language object used as source for the assignment
+     * @param orig the Language object used as source for the assignment.
+     * Input parameter
      * @return A reference to this object
      */
-    Language& operator=(const Language& orig);
+    Language operator=(Language orig);
 
     /**
-     * @brief Returns the identifier of this language object
+     * @brief Returns the identifier of this language object.
+     * Query method.
      * @return A const reference to the identifier of this language object
      */
-    const std::string& getLanguageId() const;
+    std::string getLanguageId();
 
     /**
-     * @brief Sets a new identifier for this language object
-     * @param id The new identifier 
+     * @brief Sets a new identifier for this language object.
+     * Modifier method.
+     * @param id The new identifier. Input parameter  
      */
-    void setLanguageId(const std::string& id);
+    void setLanguageId(std::string id);
 
 
     /**
      * @brief Gets a const reference to the BigramFreq at the given position 
      * of the vector in this object
-     * @param index the position to consider
+     * Query method
+     * @param index the position to consider. Input parameter
      * @throw std::out_of_range Throws an std::out_of_range exception if the 
      * given index is not valid
      * @return A const reference to the BigramFreq at the given position
      */
-    const BigramFreq& at(int index) const; 
+    BigramFreq at(int index); 
 
     /**
      * @brief Gets a reference to the BigramFreq at the given position of the 
-     * vector in this object
-     * @param index the position to consider
+     * vector in this object.
+     * Query and modifier method
+     * @param index the position to consider. Input parameter
      * @throw std::out_of_range Throws an std::out_of_range exception if the 
      * given index is not valid
      * @return A reference to the BigramFreq at the given position
@@ -97,10 +104,11 @@ public:
     BigramFreq& at(int index); 
 
     /**
-     * @brief Gets the number of BigramFreq objects 
+     * @brief Gets the number of BigramFreq objects.
+     * Query method 
      * @return The number of BigramFreq objects 
      */
-    int getSize() const;
+    int getSize();
     
     /**
      * @brief Gets the distance between this Language object (\f$L_1\f$) and 
@@ -127,19 +135,20 @@ public:
      * @return The distance between this Language object and the given 
      * one @p otherLanguage.
      */
-    double getDistance(const Language& otherLanguage) const;
+    double getDistance(Language otherLanguage);
 
     /**
      * @brief Searchs the given bigram in the list of bigrams in this
      * Language. If found, it returns the position where it was found. If not,
      * it returns -1. We consider that position 0 is the one of the first 
      * bigram in the list of bigrams and this->getSize()-1 the one of the last 
-     * bigram
-     * @param bigram A bigram 
+     * bigram.
+     * Query method
+     * @param bigram A bigram. Input parameter 
      * @return If found, it returns the position where the bigram 
      * was found. If not, it returns -1
      */
-    int findBigram(const Bigram& bigram) const;
+    int findBigram( Bigram bigram);
 
     /**
      * @brief Obtains a string with the following content:
@@ -147,10 +156,11 @@ public:
      * - In the second line, the number of bigrams in this Language 
      * - In the following lines, each one of the pairs bigram-frequency 
      * (separated by a whitespace).
+     * Query method
      * @return A string with the number of bigrams and the list of pairs of
      * bigram-frequency in the object
      */
-    std::string toString() const;
+    std::string toString();
 
     /**
      * @brief Sorts the vector of BigramFreq in decreasing order of frequency.
@@ -163,21 +173,23 @@ public:
 
     /**
      * @brief Saves this Language object in the given file
+     * Query method
      * @param fileName A c-string with the name of the file where this Language 
-     * object will be saved
+     * object will be saved. Input parameter
      * @param mode The mode to use to save this Language object: 't' for text
      * mode and 'b' for binary mode
      * @throw std::ios_base::failure Throws a std::ios_base::failure exception 
      * if the given file cannot be opened or if an error occurs while writing
      * to the file
      */
-    void save(const char fileName[], char mode = 't') const;
-
+    void save(char fileName[], char mode = 't');
+    
     /**
      * @brief Loads into this object the Language object stored in the given 
      * file
+     * Modifier method
      * @param fileName A c-string with the name of the file where the Language 
-     * will be stored. 
+     * will be stored. Input parameter
      * @throw std::out_of_range Throws a std::out_of_range exception if the 
      * number of bigrams read from the given file is negative.
      * @throw std::ios_base::failure Throws a std::ios_base::failure exception 
@@ -186,7 +198,8 @@ public:
      * @throw throw std::invalid_argument Throws a std::invalid_argument 
      * exception if an invalid magic string is found in the given file
      */
-    void load(const char fileName[]);
+    void load(char fileName[]);
+    
     
     /**
      * @brief Appends a copy of the given BigramFreq to this Language object.
@@ -194,20 +207,23 @@ public:
      * with the one of the given BigramFreq object. If not, a copy of the 
      * given BigramFreq object is appended to the end of the list of
      * BigramFreq objects in this Language.
-     * @param bigramFreq The BigramFreq to append to this object
+     * Modifier method
+     * @param bigramFreq The BigramFreq to append to this object. Input parameter
      */
-    void append(const BigramFreq& bigramFreq);
+    void append(BigramFreq bigramFreq);
     
     /**
      * @brief Overloading of the [] operator for Language class
      * @param index index of the element. Input parameter
-     * @return A reference to the BigramFreq object at position @p index
+     * Query method
+     * @return A const reference to the BigramFreq object at position @p index
      */
     BigramFreq operator[](int index);
 
     /**
      * @brief Overloading of the [] operator for Language class
      * @param index index of the element. Input parameter 
+     * Query and modifier method
      * @return A reference to the BigramFreq object at position @p index
      */
     BigramFreq operator[](int index);
@@ -218,6 +234,7 @@ public:
      * found in this object, then its frequency is increased with the one in 
      * @p language. If not, a copy of the bigram-pair is appended to the end
      * of the list of BigramFreq objects in this Language.
+     * Modifier method
      * @param language A Language object. Input parameter
      * @return A reference to this object.
      */
